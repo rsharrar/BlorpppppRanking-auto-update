@@ -4,10 +4,62 @@ import { Player } from '../../../lib/player'
 import playersJson from '../../../../cron/data/players.json';
 import * as settings from '../../../../settings'
 
+const PLAYER_TO_CHARACTERS = new Map([
+  ['Owl', ['MARTH']],
+  ['Fizzwiggle', ['SHEIK']],
+  ['Polear', ['MARTH']],
+  ['Miyagi', ['FOX']],
+  ['DD', ['JIGGLYPUFF']],
+  ['O2 | | Sayren', ['FALCO']],
+  ['GetCrabby', ['MARTH']],
+  ['James Jr.', ['FOX']],
+  ['Zealot', ['FOX', 'SHEIK', 'MARTH', 'FALCO']],
+  ['Loam', ['FALCO']],
+  ['LIAM#697 | Shleeum', ['FOX', 'FALCO', 'MARTH']],
+  ['DSJ', ['JIGGLYPUFF']],
+  ['Big Piney', ['JIGGLYPUFF']],
+  ['Conman', ['FOX']],
+  ['Neuron', ['FOX']],
+  ['Omegam', ['SHEIK']],
+  ['w0mp', ['FOX']],
+  ['RIZ', ['FOX']],
+  ['Grillindude', ['SAMUS']],
+  ['Rrob', ['FOX']],
+  ['blorppppp', ['SHEIK']],
+  ['Dr | Pill Nye', ['DR_MARIO', 'DONKEY_KONG']],
+  ['Kiefer', ['SHEIK']],
+  ['3rd Strongest', ['FOX']],
+  ['WizP', ['SHEIK', 'FOX']],
+  ['KB | ChucklesTheCheat', ['FALCO']],
+  ['Quest', ['FOX']],
+  ['Stinky', ['LUIGI']],
+  ['Jab', ['CAPTAIN_FALCON']],
+  ['Gingerham', ['FOX']],
+  ['Spin', ['FALCO']],
+  ['PkThundah', ['ICE_CLIMBERS']],
+  ['elel', ['FOX']],
+  ['foxtrot', ['SHEIK']],
+  ['Slatty', ['MARTH']],
+  ['Wheels', ['FOX', 'FALCO']],
+  ['Cheunk', ['PEACH']],
+  ['Swid', ['FALCO']],
+  ['Janke', ['SAMUS']],
+  ['fidibidi', ['PEACH']],
+  ['zapwad', ['FOX']],
+  ['Critius', ['DR_MARIO']],
+  ['JJFF', ['NESS']],
+  ['Fallen', ['FALCO']],
+  ['Hada', ['PEACH']],
+  ['schwang', ['MARTH']],
+  ['Ace?', ['LUIGI']],
+  ['Neptune', ['ICE_CLIMBERS']],
+])
+
 export default function HomePage() {
   const players = playersJson as Player[]
   const nameToPlayer = new Map(players.map((p) => [p.name, p]))
   players.forEach((p) => {
+    p.characters = PLAYER_TO_CHARACTERS.get(p.name) ?? []
     p.player_records = p.records.map((r) => {
       return {
         wins: r.wins,

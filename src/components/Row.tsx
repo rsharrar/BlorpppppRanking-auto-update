@@ -80,11 +80,13 @@ export function Row({ player }: Props) {
                 <div className="md:w-20 w-10 md:text-2xl text-gray-300 whitespace-nowrap text-center">
                   #{player.colley_rank}
 	          	   </div>
-                <div className="md:w-60 w-40 text-gray-100 whitespace-nowrap text-center overflow-hidden md:max-w-full max-w-[7rem] text-elipses md:text-xl text-sm max-w-xs text-gray-300">
+                <div className="flex flex-row md:w-64 w-40 text-gray-100 whitespace-nowrap text-center overflow-hidden md:max-w-full max-w-[7rem] text-elipses md:text-xl text-sm max-w-xs text-gray-300 items-center justify-center">
                   {player.name}
+                  <div className="mx-1 flex flex-row">
                   {(player.characters ?? []).map((c) => {
                     return <Character name={c} />
                   })}
+                  </div>
                 </div>
                 <div className="md:w-40 w-20 md:text-xl text-sm text-gray-100 whitespace-nowrap text-center">
                   {formatScore(player.colley_score)}

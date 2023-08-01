@@ -70,5 +70,5 @@ const characterNameToIcon = new Map([
 
 export function Character({name}: Props) {
   const icon = characterNameToIcon.get(name) ?? UnknownIcon
-  return <img className="md:h-8 md:w-8 h-3 w-3" src={icon} />
+  return <img className="md:h-6 md:w-6 h-3 w-3" src={icon} />
 }

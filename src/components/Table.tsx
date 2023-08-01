@@ -47,7 +47,7 @@ export function Table({ players }: Props) {
         <div className="bg-gray-600 p-4"></div>
         <div className="flex flex-row p-2 bg-black">
           {th('Rank', "md:w-20 w-10")}
-          {th('Player', "md:w-60 w-40")}
+          {th('Player', "md:w-64 w-40")}
           {th('Rating', "md:w-40 w-20")}
           {th('Strength of schedule', "md:w-44 w-20")}
           {th('W/L', "md:w-20 w-10")}
