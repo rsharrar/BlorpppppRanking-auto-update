@@ -50,9 +50,12 @@ const PLAYER_TO_CHARACTERS = new Map([
   ['JJFF', ['NESS']],
   ['Fallen', ['FALCO']],
   ['Hada', ['PEACH']],
-  ['schwang', ['MARTH']],
+  ['shwang', ['MARTH']],
   ['Ace?', ['LUIGI']],
   ['Neptune', ['ICE_CLIMBERS']],
+  ['AceBox', ['JIGGLYPUFF']],
+  ['Kasumi', ['DR_MARIO']],
+  ['MP3', ['NESS']],
 ])
 
 export default function HomePage() {
