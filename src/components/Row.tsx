@@ -1,5 +1,6 @@
 import { Player } from '../lib/player'
 import { Character } from './Character'
+import { Records } from './Records'
 import { Disclosure, Transition } from '@headlessui/react'
 import { ChevronUpIcon } from '@heroicons/react/24/solid'
 
@@ -62,14 +63,6 @@ export function Row({ player }: Props) {
   const records = player.player_records
     .sort((a, b) => a.opponent.colley_rank - b.opponent.colley_rank)
 
-  const recordsSection = () => {
-    return <div>
-      {records.map((r) => {
-        return <div key={r.opponent.name}>
-          <span className="font-bold text-green-700">{r.wins}</span> - <span className="font-bold text-red-700">{r.losses}</span> vs. #{r.opponent.colley_rank} {r.opponent.name}
-        </div>})}
-    </div>
-  }
 
   return (
 		  <Disclosure>
@@ -84,7 +77,7 @@ export function Row({ player }: Props) {
                   {player.name}
                   <div className="mx-1 flex flex-row">
                   {(player.characters ?? []).map((c) => {
-                    return <Character name={c} />
+                    return <Character key={c} name={c} />
                   })}
                   </div>
                 </div>
@@ -113,8 +106,8 @@ export function Row({ player }: Props) {
           leave="transition duration-75 ease-out"
           leaveFrom="transform scale-100 opacity-100"
           leaveTo="transform scale-95 opacity-0">
-           <Disclosure.Panel className="px-4 pt-4 pb-2 bg-slate-300 rounded-b-lg mb-1">
-             {recordsSection}
+           <Disclosure.Panel className="bg-slate-100 rounded-b-lg mb-1">
+             <Records records={player.player_records} />
            </Disclosure.Panel>
 		    </Transition>
          </>
