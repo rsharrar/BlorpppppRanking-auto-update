@@ -69,11 +69,11 @@ export function Row({ player }: Props) {
        {({ open }) => (
          <>
            <Disclosure.Button className={`${open ? 'rounded-t-lg' : 'rounded-lg '}`}>
-              <div className={`${getTableBg(player)} flex flex-row border-separate border-spacing-1 border-b-2 border-gray-600 items-center justify-center p-3`}>
-                <div className="md:w-20 w-10 md:text-2xl text-gray-300 whitespace-nowrap text-center">
+              <div className={`${getTableBg(player)} flex flex-row border-separate border-spacing-1 border-b-2 border-gray-600 items-center justify-center md:p-3 py-1`}>
+                <div className="text-xs md:w-20 w-10 md:text-2xl text-gray-300 whitespace-nowrap text-center">
                   #{player.colley_rank}
 	          	   </div>
-                <div className="flex flex-row md:w-64 w-40 text-gray-100 whitespace-nowrap text-center overflow-hidden md:max-w-full max-w-[7rem] text-elipses md:text-xl text-sm max-w-xs text-gray-300 items-center justify-center">
+                <div className="flex flex-row md:w-64 w-32 text-gray-100 whitespace-nowrap text-center overflow-hidden md:max-w-full max-w-[7rem] text-elipses md:text-xl text-xs max-w-xs text-gray-300 items-center justify-center">
                   {player.name}
                   <div className="mx-1 flex flex-row">
                   {(player.characters ?? []).map((c) => {
@@ -81,22 +81,24 @@ export function Row({ player }: Props) {
                   })}
                   </div>
                 </div>
-                <div className="md:w-40 w-20 md:text-xl text-sm text-gray-100 whitespace-nowrap text-center">
+                <div className="md:w-40 w-20 md:text-xl text-xs text-gray-100 whitespace-nowrap text-center">
                   {formatScore(player.colley_score)}
                 </div>
-                <div className="md:w-44 w-20 md:text-lg text-sm text-gray-100 whitespace-nowrap text-center">
+                <div className="md:w-44 w-20 md:text-lg text-xs text-gray-100 whitespace-nowrap text-center">
                   <span className="text-gray-400 mr-2">#{player.colley_strength_of_schedule_rank}</span> {formatScore(player.colley_strength_of_schedule)}
                 </div>
-                <div className="md:w-20 w-10 md:text-xl text-gray-300 text-sm whitespace-nowrap text-center">
+                <div className="md:w-20 w-10 md:text-xl text-gray-300 text-xs whitespace-nowrap text-center">
                   {Boolean(totalSets) && <><span className="text-green-500">{totalWins}</span><span className="md:p-1">/</span>
                   <span className="text-red-500">{totalLosses}</span>
                 </>}
                 </div>
-                <ChevronUpIcon
-                  className={`${
-                    open ? 'rotate-180 transform' : ''
-                  } h-5 w-5 text-gray-100`}
-                />
+                <div className="md:w-5 w-4">
+                  <ChevronUpIcon
+                    className={`${
+                      open ? 'rotate-180 transform' : ''
+                    } md:h-5 md:w-5 h-3 w-3 text-gray-100`}
+                  />
+                </div>
             </div>
            </Disclosure.Button>
 		  	<Transition

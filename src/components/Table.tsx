@@ -33,7 +33,7 @@ export function Table({ players }: Props) {
   }
 
   const th = (text, width) => {
-    return <div className={`${width} text-center text-xs md:text-sm font-medium text-white p-3`} onClick={() => updateSort(text)}>{(LABEL_TO_PROP.get(text) === sortCol) && sortArrow(sortDescending)}{text}</div>
+    return <div className={`flex items-center justify-center text-center ${width} text-xs md:text-sm font-medium text-white md:py-3 py-1`} onClick={() => updateSort(text)}>{(LABEL_TO_PROP.get(text) === sortCol) && sortArrow(sortDescending)}{text}</div>
   }
 
   const sortArrow = (descending: boolean) => {
@@ -44,14 +44,13 @@ export function Table({ players }: Props) {
     <>
     <div className="flex flex-col">
       <div className="sticky top-0">
-        <div className="bg-gray-600 p-4"></div>
-        <div className="flex flex-row p-2 bg-black">
+        <div className="flex flex-row md:p-3 bg-black">
           {th('Rank', "md:w-20 w-10")}
-          {th('Player', "md:w-64 w-40")}
+          {th('Player', "md:w-64 w-32")}
           {th('Rating', "md:w-40 w-20")}
           {th('Strength of schedule', "md:w-44 w-20")}
           {th('W/L', "md:w-20 w-10")}
-        <div className="w-5"></div>
+        <div className="md:w-5 w-4"></div>
         </div>
       </div>
       {sortedPlayers.length > 0 &&

@@ -65,17 +65,17 @@ export function Records({ records }: Props) {
 
     return <div>
       <div className="flex flex-col items-center mb-2 pt-2">
-        <div className="uppercase p-1 text-xs font-bold"> Sort by </div>
+        <div className="uppercase p-1 md:text-xs font-bold text-[0.625rem]"> Sort by </div>
         <div className="flex flex-row items-center justify-center">
           <button
           type="button"
-          className="m-2 inline-block rounded-full border-2 border-blue-500 px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-blue-500 transition duration-150 ease-in-out hover:border-blue-600 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-blue-600 focus:border-blue-600 focus:text-blue-600 focus:outline-none focus:ring-0 active:border-blue-700 active:text-blue-700 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10"
+          className="md:m-2 m-1 inline-block rounded-full border-2 border-blue-500 md:px-6 md:pb-[6px] md:pt-2 px-3 py-1 md:text-xs text-[0.625rem] font-medium uppercase leading-normal text-blue-500 transition duration-150 ease-in-out hover:border-blue-600 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-blue-600 focus:border-blue-600 focus:text-blue-600 focus:outline-none focus:ring-0 active:border-blue-700 active:text-blue-700 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10"
           onClick={() => updateSort('RANK')} >
             Opponent Rank
           </button>
           <button
           type="button"
-          className="m-2 inline-block rounded-full border-2 border-teal-500 px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-teal-500 transition duration-150 ease-in-out hover:border-teal-600 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-teal-600 focus:border-teal-600 focus:text-teal-600 focus:outline-none focus:ring-0 active:border-teal-700 active:text-teal-700 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10"
+          className="md:m-2 m-1 inline-block rounded-full border-2 border-teal-500 md:px-6 md:pb-[6px] md:pt-2 px-3 py-1 md:text-xs text-[0.625rem] font-medium uppercase leading-normal text-teal-500 transition duration-150 ease-in-out hover:border-teal-600 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-teal-600 focus:border-teal-600 focus:text-teal-600 focus:outline-none focus:ring-0 active:border-teal-700 active:text-teal-700 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10"
           onClick={() => updateSort('RECORD')} >
             Record
           </button>
@@ -83,7 +83,7 @@ export function Records({ records }: Props) {
       </div>
 
       {sortedRecords.map((r) => {
-        return <div key={r.opponent.name} style={{backgroundColor: "#" + getBgColor(r)}} className={`px-2 py-1`}>
+        return <div key={r.opponent.name} style={{backgroundColor: "#" + getBgColor(r)}} className="px-2 py-1 text-xs md:text-base">
           <span className="font-bold text-green-700">{r.wins}</span> - <span className="font-bold text-red-700">{r.losses}</span> vs. #{r.opponent.colley_rank} {r.opponent.name}
         </div>})}
     </div>
