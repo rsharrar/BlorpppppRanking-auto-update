@@ -3,8 +3,8 @@
         "name": "Fizzwiggle",
         "braacket_rank": 1,
         "colley_rank": 1,
-        "colley_score": 1.204164640082453,
-        "colley_strength_of_schedule": 0.8419249300876062,
+        "colley_score": 1.2035170085739013,
+        "colley_strength_of_schedule": 0.8412368216097702,
         "records": [
             {
                 "wins": 5,
@@ -59,17 +59,17 @@
             {
                 "wins": 1,
                 "losses": 0,
+                "opponent": "KB | ChucklesTheCheat"
+            },
+            {
+                "wins": 1,
+                "losses": 0,
                 "opponent": "Gingerham"
             },
             {
                 "wins": 1,
                 "losses": 0,
                 "opponent": "Neuron"
-            },
-            {
-                "wins": 1,
-                "losses": 0,
-                "opponent": "KB | ChucklesTheCheat"
             },
             {
                 "wins": 1,
@@ -112,8 +112,8 @@
         "name": "Polear",
         "braacket_rank": 2,
         "colley_rank": 3,
-        "colley_score": 1.0500359472714864,
-        "colley_strength_of_schedule": 0.8250375812383722,
+        "colley_score": 1.0539574072630833,
+        "colley_strength_of_schedule": 0.8291372894114052,
         "records": [
             {
                 "wins": 1,
@@ -124,6 +124,11 @@
                 "wins": 3,
                 "losses": 1,
                 "opponent": "Miyagi"
+            },
+            {
+                "wins": 2,
+                "losses": 2,
+                "opponent": "Zealot"
             },
             {
                 "wins": 2,
@@ -144,11 +149,6 @@
                 "wins": 1,
                 "losses": 0,
                 "opponent": "Loam"
-            },
-            {
-                "wins": 2,
-                "losses": 2,
-                "opponent": "Zealot"
             },
             {
                 "wins": 1,
@@ -213,12 +213,12 @@
             {
                 "wins": 1,
                 "losses": 0,
-                "opponent": "elel"
+                "opponent": "Crowken"
             },
             {
                 "wins": 1,
                 "losses": 0,
-                "opponent": "Crowken"
+                "opponent": "elel"
             },
             {
                 "wins": 1,
@@ -256,8 +256,8 @@
         "name": "Owl",
         "braacket_rank": 3,
         "colley_rank": 2,
-        "colley_score": 1.1903817024950099,
-        "colley_strength_of_schedule": 0.843799858605012,
+        "colley_score": 1.1896505028092625,
+        "colley_strength_of_schedule": 0.8429061701002099,
         "records": [
             {
                 "wins": 2,
@@ -300,8 +300,8 @@
         "name": "Miyagi",
         "braacket_rank": 4,
         "colley_rank": 4,
-        "colley_score": 1.0353727407691828,
-        "colley_strength_of_schedule": 0.8522943333653309,
+        "colley_score": 1.0377232232289189,
+        "colley_strength_of_schedule": 0.8549386261325338,
         "records": [
             {
                 "wins": 1,
@@ -316,12 +316,12 @@
             {
                 "wins": 1,
                 "losses": 0,
-                "opponent": "DSJ"
+                "opponent": "Zealot"
             },
             {
                 "wins": 1,
                 "losses": 0,
-                "opponent": "Zealot"
+                "opponent": "DSJ"
             },
             {
                 "wins": 1,
@@ -369,8 +369,8 @@
         "name": "GetCrabby",
         "braacket_rank": 5,
         "colley_rank": 8,
-        "colley_score": 0.9358784671412779,
-        "colley_strength_of_schedule": 0.7649370316173632,
+        "colley_score": 0.9353306303179768,
+        "colley_strength_of_schedule": 0.7643526723391754,
         "records": [
             {
                 "wins": 0,
@@ -463,8 +463,8 @@
         "name": "James Jr.",
         "braacket_rank": 6,
         "colley_rank": 9,
-        "colley_score": 0.9211485360305205,
-        "colley_strength_of_schedule": 0.7612368849559453,
+        "colley_score": 0.9204540399563349,
+        "colley_strength_of_schedule": 0.7604889661068222,
         "records": [
             {
                 "wins": 0,
@@ -562,8 +562,8 @@
         "name": "O2 | | Sayren",
         "braacket_rank": 7,
         "colley_rank": 6,
-        "colley_score": 0.9887241279436416,
-        "colley_strength_of_schedule": 0.7946816860888173,
+        "colley_score": 0.9879290839124565,
+        "colley_strength_of_schedule": 0.7937643275912959,
         "records": [
             {
                 "wins": 0,
@@ -623,11 +623,70 @@
         ]
     },
     {
-        "name": "DSJ",
+        "name": "Zealot",
         "braacket_rank": 8,
+        "colley_rank": 7,
+        "colley_score": 0.9702457789261242,
+        "colley_strength_of_schedule": 0.7329452161162744,
+        "records": [
+            {
+                "wins": 2,
+                "losses": 2,
+                "opponent": "Polear"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Miyagi"
+            },
+            {
+                "wins": 1,
+                "losses": 0,
+                "opponent": "w0mp"
+            },
+            {
+                "wins": 2,
+                "losses": 0,
+                "opponent": "KB | ChucklesTheCheat"
+            },
+            {
+                "wins": 1,
+                "losses": 0,
+                "opponent": "Neptune"
+            },
+            {
+                "wins": 1,
+                "losses": 0,
+                "opponent": "PkThundah"
+            },
+            {
+                "wins": 2,
+                "losses": 0,
+                "opponent": "Crowken"
+            },
+            {
+                "wins": 1,
+                "losses": 0,
+                "opponent": "20xQuest"
+            },
+            {
+                "wins": 1,
+                "losses": 0,
+                "opponent": "Sir+"
+            },
+            {
+                "wins": 1,
+                "losses": 0,
+                "opponent": "moth"
+            }
+        ]
+    },
+    {
+        "name": "DSJ",
+        "braacket_rank": 9,
         "colley_rank": 11,
-        "colley_score": 0.90361234996422,
-        "colley_strength_of_schedule": 0.7647641719136941,
+        "colley_score": 0.9034749806327805,
+        "colley_strength_of_schedule": 0.7646201016392579,
         "records": [
             {
                 "wins": 0,
@@ -788,10 +847,10 @@
     },
     {
         "name": "DD",
-        "braacket_rank": 9,
+        "braacket_rank": 10,
         "colley_rank": 5,
-        "colley_score": 1.0236796667678376,
-        "colley_strength_of_schedule": 0.9119380770398127,
+        "colley_score": 1.0241355591015706,
+        "colley_strength_of_schedule": 0.9124641066556585,
         "records": [
             {
                 "wins": 1,
@@ -837,10 +896,10 @@
     },
     {
         "name": "Grillindude",
-        "braacket_rank": 10,
+        "braacket_rank": 11,
         "colley_rank": 14,
-        "colley_score": 0.8784394314059343,
-        "colley_strength_of_schedule": 0.7287145859184091,
+        "colley_score": 0.8781750911842182,
+        "colley_strength_of_schedule": 0.7284290984789557,
         "records": [
             {
                 "wins": 0,
@@ -931,10 +990,10 @@
     },
     {
         "name": "Loam",
-        "braacket_rank": 11,
+        "braacket_rank": 12,
         "colley_rank": 10,
-        "colley_score": 0.9115820580180294,
-        "colley_strength_of_schedule": 0.7509345240194161,
+        "colley_score": 0.9083007082577204,
+        "colley_strength_of_schedule": 0.7474007627390835,
         "records": [
             {
                 "wins": 0,
@@ -1039,55 +1098,11 @@
         ]
     },
     {
-        "name": "Zealot",
-        "braacket_rank": 12,
-        "colley_rank": 7,
-        "colley_score": 0.9361390798958105,
-        "colley_strength_of_schedule": 0.8233668958749721,
-        "records": [
-            {
-                "wins": 2,
-                "losses": 2,
-                "opponent": "Polear"
-            },
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Miyagi"
-            },
-            {
-                "wins": 1,
-                "losses": 0,
-                "opponent": "w0mp"
-            },
-            {
-                "wins": 1,
-                "losses": 0,
-                "opponent": "KB | ChucklesTheCheat"
-            },
-            {
-                "wins": 1,
-                "losses": 0,
-                "opponent": "Neptune"
-            },
-            {
-                "wins": 1,
-                "losses": 0,
-                "opponent": "Crowken"
-            },
-            {
-                "wins": 1,
-                "losses": 0,
-                "opponent": "moth"
-            }
-        ]
-    },
-    {
         "name": "LIAM#697 | Shleeum",
         "braacket_rank": 13,
         "colley_rank": 13,
-        "colley_score": 0.8930615432575661,
-        "colley_strength_of_schedule": 0.7309893542773789,
+        "colley_score": 0.8924396278392543,
+        "colley_strength_of_schedule": 0.7303195992115048,
         "records": [
             {
                 "wins": 0,
@@ -1210,8 +1225,8 @@
         "name": "Cheunk",
         "braacket_rank": 14,
         "colley_rank": 12,
-        "colley_score": 0.8989087245390085,
-        "colley_strength_of_schedule": 0.7097773299921218,
+        "colley_score": 0.8985282027433547,
+        "colley_strength_of_schedule": 0.7093122477974332,
         "records": [
             {
                 "wins": 0,
@@ -1259,8 +1274,8 @@
         "name": "Omegam",
         "braacket_rank": 15,
         "colley_rank": 17,
-        "colley_score": 0.8278547849260889,
-        "colley_strength_of_schedule": 0.722510694920614,
+        "colley_score": 0.8262729918087284,
+        "colley_strength_of_schedule": 0.7208117319427082,
         "records": [
             {
                 "wins": 0,
@@ -1358,8 +1373,8 @@
         "name": "w0mp",
         "braacket_rank": 16,
         "colley_rank": 20,
-        "colley_score": 0.7983833931725574,
-        "colley_strength_of_schedule": 0.7308663416922113,
+        "colley_score": 0.7989153893724555,
+        "colley_strength_of_schedule": 0.731423081901407,
         "records": [
             {
                 "wins": 0,
@@ -1382,6 +1397,11 @@
                 "opponent": "O2 | | Sayren"
             },
             {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Zealot"
+            },
+            {
                 "wins": 1,
                 "losses": 0,
                 "opponent": "DSJ"
@@ -1400,11 +1420,6 @@
                 "wins": 0,
                 "losses": 1,
                 "opponent": "Loam"
-            },
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Zealot"
             },
             {
                 "wins": 1,
@@ -1464,12 +1479,12 @@
             {
                 "wins": 1,
                 "losses": 0,
-                "opponent": "Stinky"
+                "opponent": "KB | ChucklesTheCheat"
             },
             {
                 "wins": 1,
                 "losses": 0,
-                "opponent": "KB | ChucklesTheCheat"
+                "opponent": "Stinky"
             },
             {
                 "wins": 1,
@@ -1547,8 +1562,8 @@
         "name": "WizP",
         "braacket_rank": 17,
         "colley_rank": 22,
-        "colley_score": 0.7926146280477222,
-        "colley_strength_of_schedule": 0.7528419870083936,
+        "colley_score": 0.7924131748033663,
+        "colley_strength_of_schedule": 0.7526230160906151,
         "records": [
             {
                 "wins": 0,
@@ -1641,8 +1656,8 @@
         "name": "Rrob",
         "braacket_rank": 18,
         "colley_rank": 19,
-        "colley_score": 0.8010095472756705,
-        "colley_strength_of_schedule": 0.7106295041590677,
+        "colley_score": 0.8016234059402786,
+        "colley_strength_of_schedule": 0.7113018255536383,
         "records": [
             {
                 "wins": 1,
@@ -1745,8 +1760,8 @@
         "name": "Big Piney",
         "braacket_rank": 19,
         "colley_rank": 15,
-        "colley_score": 0.8588056241918074,
-        "colley_strength_of_schedule": 0.8117408322557426,
+        "colley_score": 0.8589412689702659,
+        "colley_strength_of_schedule": 0.8119216919603541,
         "records": [
             {
                 "wins": 0,
@@ -1784,8 +1799,8 @@
         "name": "RIZ",
         "braacket_rank": 20,
         "colley_rank": 18,
-        "colley_score": 0.8097770353388707,
-        "colley_strength_of_schedule": 0.7234991647562296,
+        "colley_score": 0.8088081657244605,
+        "colley_strength_of_schedule": 0.7224091864400176,
         "records": [
             {
                 "wins": 0,
@@ -1863,8 +1878,8 @@
         "name": "blorppppp",
         "braacket_rank": 21,
         "colley_rank": 23,
-        "colley_score": 0.7795878516365399,
-        "colley_strength_of_schedule": 0.735505421963848,
+        "colley_score": 0.7806754666480196,
+        "colley_strength_of_schedule": 0.7368105599776235,
         "records": [
             {
                 "wins": 0,
@@ -1922,8 +1937,8 @@
         "name": "Quest",
         "braacket_rank": 22,
         "colley_rank": 30,
-        "colley_score": 0.7141055873747107,
-        "colley_strength_of_schedule": 0.6748108667434463,
+        "colley_score": 0.7160101835320558,
+        "colley_strength_of_schedule": 0.6768106927086588,
         "records": [
             {
                 "wins": 0,
@@ -1976,6 +1991,11 @@
                 "opponent": "Janke"
             },
             {
+                "wins": 1,
+                "losses": 0,
+                "opponent": "KB | ChucklesTheCheat"
+            },
+            {
                 "wins": 0,
                 "losses": 1,
                 "opponent": "Neuron"
@@ -1984,11 +2004,6 @@
                 "wins": 1,
                 "losses": 2,
                 "opponent": "Stinky"
-            },
-            {
-                "wins": 1,
-                "losses": 0,
-                "opponent": "KB | ChucklesTheCheat"
             },
             {
                 "wins": 0,
@@ -2011,6 +2026,11 @@
                 "opponent": "Kasumi"
             },
             {
+                "wins": 2,
+                "losses": 0,
+                "opponent": "Crowken"
+            },
+            {
                 "wins": 1,
                 "losses": 0,
                 "opponent": "Spin"
@@ -2019,11 +2039,6 @@
                 "wins": 1,
                 "losses": 0,
                 "opponent": "MothersDay"
-            },
-            {
-                "wins": 2,
-                "losses": 0,
-                "opponent": "Crowken"
             },
             {
                 "wins": 0,
@@ -2080,9 +2095,9 @@
     {
         "name": "Phazon",
         "braacket_rank": 23,
-        "colley_rank": 27,
-        "colley_score": 0.7457987245045874,
-        "colley_strength_of_schedule": 0.6515235650676606,
+        "colley_rank": 28,
+        "colley_score": 0.744415446333106,
+        "colley_strength_of_schedule": 0.6499673771247441,
         "records": [
             {
                 "wins": 0,
@@ -2102,12 +2117,12 @@
             {
                 "wins": 1,
                 "losses": 0,
-                "opponent": "Gingerham"
+                "opponent": "KB | ChucklesTheCheat"
             },
             {
                 "wins": 1,
                 "losses": 0,
-                "opponent": "KB | ChucklesTheCheat"
+                "opponent": "Gingerham"
             },
             {
                 "wins": 0,
@@ -2155,8 +2170,8 @@
         "name": "Dr | Pill Nye",
         "braacket_rank": 24,
         "colley_rank": 21,
-        "colley_score": 0.7946700760382853,
-        "colley_strength_of_schedule": 0.6822783202780841,
+        "colley_score": 0.7940114675550708,
+        "colley_strength_of_schedule": 0.6815422284439027,
         "records": [
             {
                 "wins": 0,
@@ -2239,8 +2254,8 @@
         "name": "Kiefer",
         "braacket_rank": 25,
         "colley_rank": 24,
-        "colley_score": 0.7773850211708517,
-        "colley_strength_of_schedule": 0.7526500235231687,
+        "colley_score": 0.7776548631571847,
+        "colley_strength_of_schedule": 0.7529498479524276,
         "records": [
             {
                 "wins": 0,
@@ -2327,9 +2342,9 @@
     {
         "name": "Mariposa",
         "braacket_rank": 26,
-        "colley_rank": 28,
-        "colley_score": 0.7453256551995652,
-        "colley_strength_of_schedule": 0.694390786239478,
+        "colley_rank": 27,
+        "colley_score": 0.744972321090238,
+        "colley_strength_of_schedule": 0.6939667853082855,
         "records": [
             {
                 "wins": 1,
@@ -2387,8 +2402,8 @@
         "name": "3rd Strongest",
         "braacket_rank": 27,
         "colley_rank": 26,
-        "colley_score": 0.766343410531672,
-        "colley_strength_of_schedule": 0.768266164711869,
+        "colley_score": 0.7663033695319934,
+        "colley_strength_of_schedule": 0.7682214130063452,
         "records": [
             {
                 "wins": 0,
@@ -2460,9 +2475,9 @@
     {
         "name": "Janke",
         "braacket_rank": 28,
-        "colley_rank": 36,
-        "colley_score": 0.6580387988829767,
-        "colley_strength_of_schedule": 0.6352413854751754,
+        "colley_rank": 35,
+        "colley_score": 0.6589511382464308,
+        "colley_strength_of_schedule": 0.6362145474628597,
         "records": [
             {
                 "wins": 0,
@@ -2500,14 +2515,14 @@
                 "opponent": "Dr | Pill Nye"
             },
             {
-                "wins": 1,
-                "losses": 1,
-                "opponent": "Gingerham"
-            },
-            {
                 "wins": 0,
                 "losses": 2,
                 "opponent": "KB | ChucklesTheCheat"
+            },
+            {
+                "wins": 1,
+                "losses": 1,
+                "opponent": "Gingerham"
             },
             {
                 "wins": 1,
@@ -2592,11 +2607,105 @@
         ]
     },
     {
-        "name": "Gingerham",
+        "name": "KB | ChucklesTheCheat",
         "braacket_rank": 29,
+        "colley_rank": 29,
+        "colley_score": 0.7278055739685103,
+        "colley_strength_of_schedule": 0.6728377396494061,
+        "records": [
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Fizzwiggle"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Miyagi"
+            },
+            {
+                "wins": 0,
+                "losses": 2,
+                "opponent": "Zealot"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "w0mp"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Quest"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Phazon"
+            },
+            {
+                "wins": 2,
+                "losses": 0,
+                "opponent": "Janke"
+            },
+            {
+                "wins": 1,
+                "losses": 0,
+                "opponent": "Stinky"
+            },
+            {
+                "wins": 1,
+                "losses": 0,
+                "opponent": "PkThundah"
+            },
+            {
+                "wins": 1,
+                "losses": 0,
+                "opponent": "Kasumi"
+            },
+            {
+                "wins": 1,
+                "losses": 0,
+                "opponent": "Slatty"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Crowken"
+            },
+            {
+                "wins": 1,
+                "losses": 0,
+                "opponent": "Kite"
+            },
+            {
+                "wins": 1,
+                "losses": 0,
+                "opponent": "20xQuest"
+            },
+            {
+                "wins": 1,
+                "losses": 0,
+                "opponent": "Jcorn"
+            },
+            {
+                "wins": 1,
+                "losses": 0,
+                "opponent": "Sir+"
+            },
+            {
+                "wins": 1,
+                "losses": 0,
+                "opponent": "DN | Silas"
+            }
+        ]
+    },
+    {
+        "name": "Gingerham",
+        "braacket_rank": 30,
         "colley_rank": 31,
-        "colley_score": 0.697741131069964,
-        "colley_strength_of_schedule": 0.7224587724537096,
+        "colley_score": 0.6931719269405597,
+        "colley_strength_of_schedule": 0.7173184178081295,
         "records": [
             {
                 "wins": 0,
@@ -2667,10 +2776,10 @@
     },
     {
         "name": "Neuron",
-        "braacket_rank": 30,
+        "braacket_rank": 31,
         "colley_rank": 25,
-        "colley_score": 0.7756785786299478,
-        "colley_strength_of_schedule": 0.6894383201990292,
+        "colley_score": 0.7757283765526762,
+        "colley_strength_of_schedule": 0.6894971722895262,
         "records": [
             {
                 "wins": 0,
@@ -2731,10 +2840,10 @@
     },
     {
         "name": "Stinky",
-        "braacket_rank": 31,
+        "braacket_rank": 32,
         "colley_rank": 33,
-        "colley_score": 0.6797047707239158,
-        "colley_strength_of_schedule": 0.6441164119154621,
+        "colley_score": 0.6785516413868495,
+        "colley_strength_of_schedule": 0.6428351570964997,
         "records": [
             {
                 "wins": 0,
@@ -2762,6 +2871,11 @@
                 "opponent": "Kiefer"
             },
             {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "KB | ChucklesTheCheat"
+            },
+            {
                 "wins": 1,
                 "losses": 0,
                 "opponent": "Gingerham"
@@ -2770,11 +2884,6 @@
                 "wins": 0,
                 "losses": 1,
                 "opponent": "Neuron"
-            },
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "KB | ChucklesTheCheat"
             },
             {
                 "wins": 0,
@@ -2819,85 +2928,11 @@
         ]
     },
     {
-        "name": "KB | ChucklesTheCheat",
-        "braacket_rank": 32,
-        "colley_rank": 29,
-        "colley_score": 0.7387963316276087,
-        "colley_strength_of_schedule": 0.7014815218601237,
-        "records": [
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Fizzwiggle"
-            },
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Miyagi"
-            },
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Zealot"
-            },
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "w0mp"
-            },
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Quest"
-            },
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Phazon"
-            },
-            {
-                "wins": 2,
-                "losses": 0,
-                "opponent": "Janke"
-            },
-            {
-                "wins": 1,
-                "losses": 0,
-                "opponent": "Stinky"
-            },
-            {
-                "wins": 1,
-                "losses": 0,
-                "opponent": "Kasumi"
-            },
-            {
-                "wins": 1,
-                "losses": 0,
-                "opponent": "Slatty"
-            },
-            {
-                "wins": 1,
-                "losses": 0,
-                "opponent": "Kite"
-            },
-            {
-                "wins": 1,
-                "losses": 0,
-                "opponent": "Jcorn"
-            },
-            {
-                "wins": 1,
-                "losses": 0,
-                "opponent": "DN | Silas"
-            }
-        ]
-    },
-    {
         "name": "Conman",
         "braacket_rank": 33,
         "colley_rank": 16,
-        "colley_score": 0.8474536902576544,
-        "colley_strength_of_schedule": 0.7966049203435395,
+        "colley_score": 0.846841399503905,
+        "colley_strength_of_schedule": 0.7957885326718732,
         "records": [
             {
                 "wins": 1,
@@ -2935,8 +2970,8 @@
         "name": "Jab",
         "braacket_rank": 34,
         "colley_rank": 32,
-        "colley_score": 0.6945902925700703,
-        "colley_strength_of_schedule": 0.6361261128406038,
+        "colley_score": 0.6913784780477413,
+        "colley_strength_of_schedule": 0.6325762125790825,
         "records": [
             {
                 "wins": 0,
@@ -3034,8 +3069,8 @@
         "name": "Neptune",
         "braacket_rank": 35,
         "colley_rank": 47,
-        "colley_score": 0.5775154757590547,
-        "colley_strength_of_schedule": 0.6017758813708366,
+        "colley_score": 0.5787591189381877,
+        "colley_strength_of_schedule": 0.6031116462669422,
         "records": [
             {
                 "wins": 0,
@@ -3172,14 +3207,19 @@
     {
         "name": "PkThundah",
         "braacket_rank": 36,
-        "colley_rank": 35,
-        "colley_score": 0.6702517442728325,
-        "colley_strength_of_schedule": 0.6608695965402246,
+        "colley_rank": 39,
+        "colley_score": 0.6336290149046212,
+        "colley_strength_of_schedule": 0.6457771071686779,
         "records": [
             {
                 "wins": 0,
                 "losses": 1,
                 "opponent": "Fizzwiggle"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Zealot"
             },
             {
                 "wins": 1,
@@ -3202,6 +3242,11 @@
                 "opponent": "Janke"
             },
             {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "KB | ChucklesTheCheat"
+            },
+            {
                 "wins": 1,
                 "losses": 0,
                 "opponent": "Gingerham"
@@ -3215,6 +3260,11 @@
                 "wins": 1,
                 "losses": 0,
                 "opponent": "Slatty"
+            },
+            {
+                "wins": 1,
+                "losses": 0,
+                "opponent": "Crowken"
             },
             {
                 "wins": 0,
@@ -3232,6 +3282,11 @@
                 "opponent": "SilkyLaroux"
             },
             {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "20xQuest"
+            },
+            {
                 "wins": 1,
                 "losses": 0,
                 "opponent": "Veff"
@@ -3245,6 +3300,11 @@
                 "wins": 1,
                 "losses": 0,
                 "opponent": "Matix"
+            },
+            {
+                "wins": 1,
+                "losses": 0,
+                "opponent": "Sir+"
             },
             {
                 "wins": 0,
@@ -3262,8 +3322,8 @@
         "name": "zapwad",
         "braacket_rank": 37,
         "colley_rank": 44,
-        "colley_score": 0.5915347145120425,
-        "colley_strength_of_schedule": 0.6212333853391766,
+        "colley_score": 0.5911074625470341,
+        "colley_strength_of_schedule": 0.6207689810293849,
         "records": [
             {
                 "wins": 0,
@@ -3366,8 +3426,8 @@
         "name": "Kasumi",
         "braacket_rank": 38,
         "colley_rank": 46,
-        "colley_score": 0.5794255188678994,
-        "colley_strength_of_schedule": 0.6239967126269685,
+        "colley_score": 0.5813486233404683,
+        "colley_strength_of_schedule": 0.6260677482128117,
         "records": [
             {
                 "wins": 0,
@@ -3412,17 +3472,17 @@
             {
                 "wins": 0,
                 "losses": 1,
+                "opponent": "KB | ChucklesTheCheat"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
                 "opponent": "Neuron"
             },
             {
                 "wins": 0,
                 "losses": 1,
                 "opponent": "Stinky"
-            },
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "KB | ChucklesTheCheat"
             },
             {
                 "wins": 0,
@@ -3437,12 +3497,12 @@
             {
                 "wins": 1,
                 "losses": 0,
-                "opponent": "MothersDay"
+                "opponent": "Crowken"
             },
             {
                 "wins": 1,
                 "losses": 0,
-                "opponent": "Crowken"
+                "opponent": "MothersDay"
             },
             {
                 "wins": 0,
@@ -3495,8 +3555,8 @@
         "name": "AceBox",
         "braacket_rank": 39,
         "colley_rank": 42,
-        "colley_score": 0.5965535055707113,
-        "colley_strength_of_schedule": 0.6086226937670504,
+        "colley_score": 0.5962714860728524,
+        "colley_strength_of_schedule": 0.6083054218319588,
         "records": [
             {
                 "wins": 0,
@@ -3566,21 +3626,21 @@
             {
                 "wins": 1,
                 "losses": 0,
-                "opponent": "crank ocean"
+                "opponent": "The machinist"
             },
             {
                 "wins": 1,
                 "losses": 0,
-                "opponent": "The machinist"
+                "opponent": "crank ocean"
             }
         ]
     },
     {
         "name": "Slatty",
         "braacket_rank": 40,
-        "colley_rank": 39,
-        "colley_score": 0.6395833576025305,
-        "colley_strength_of_schedule": 0.5753289741922702,
+        "colley_rank": 38,
+        "colley_score": 0.6352189752400096,
+        "colley_strength_of_schedule": 0.5705051831600103,
         "records": [
             {
                 "wins": 0,
@@ -3672,9 +3732,9 @@
     {
         "name": "Foxtrot",
         "braacket_rank": 41,
-        "colley_rank": 37,
-        "colley_score": 0.6465583484567559,
-        "colley_strength_of_schedule": 0.5758700181481072,
+        "colley_rank": 36,
+        "colley_score": 0.64605252822256,
+        "colley_strength_of_schedule": 0.575263033867072,
         "records": [
             {
                 "wins": 0,
@@ -3724,11 +3784,95 @@
         ]
     },
     {
-        "name": "Wheels",
+        "name": "Crowken",
         "braacket_rank": 42,
-        "colley_rank": 38,
-        "colley_score": 0.6422878593728212,
-        "colley_strength_of_schedule": 0.6183518281223374,
+        "colley_rank": 56,
+        "colley_score": 0.5433239198187123,
+        "colley_strength_of_schedule": 0.5742001219048929,
+        "records": [
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Polear"
+            },
+            {
+                "wins": 0,
+                "losses": 2,
+                "opponent": "Zealot"
+            },
+            {
+                "wins": 0,
+                "losses": 2,
+                "opponent": "Quest"
+            },
+            {
+                "wins": 1,
+                "losses": 1,
+                "opponent": "Janke"
+            },
+            {
+                "wins": 1,
+                "losses": 0,
+                "opponent": "KB | ChucklesTheCheat"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "PkThundah"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Kasumi"
+            },
+            {
+                "wins": 1,
+                "losses": 0,
+                "opponent": "Kite"
+            },
+            {
+                "wins": 1,
+                "losses": 0,
+                "opponent": "20xQuest"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Blankets"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Rafael"
+            },
+            {
+                "wins": 1,
+                "losses": 0,
+                "opponent": "Brain Lag"
+            },
+            {
+                "wins": 1,
+                "losses": 0,
+                "opponent": "Gaywiggle"
+            },
+            {
+                "wins": 2,
+                "losses": 0,
+                "opponent": "Sir+"
+            },
+            {
+                "wins": 1,
+                "losses": 0,
+                "opponent": "Bearz"
+            }
+        ]
+    },
+    {
+        "name": "Wheels",
+        "braacket_rank": 43,
+        "colley_rank": 37,
+        "colley_score": 0.6384308527591954,
+        "colley_strength_of_schedule": 0.6136377089279051,
         "records": [
             {
                 "wins": 0,
@@ -3779,10 +3923,10 @@
     },
     {
         "name": "elel",
-        "braacket_rank": 43,
+        "braacket_rank": 44,
         "colley_rank": 34,
-        "colley_score": 0.6746761024859781,
-        "colley_strength_of_schedule": 0.6579374585939737,
+        "colley_score": 0.6751626657899036,
+        "colley_strength_of_schedule": 0.6585321470765485,
         "records": [
             {
                 "wins": 0,
@@ -3833,10 +3977,10 @@
     },
     {
         "name": "Spin",
-        "braacket_rank": 44,
+        "braacket_rank": 45,
         "colley_rank": 40,
-        "colley_score": 0.6257826277357081,
-        "colley_strength_of_schedule": 0.5122885600512915,
+        "colley_score": 0.6246404799738933,
+        "colley_strength_of_schedule": 0.5109387490600558,
         "records": [
             {
                 "wins": 0,
@@ -3892,10 +4036,10 @@
     },
     {
         "name": "MothersDay",
-        "braacket_rank": 45,
-        "colley_rank": 62,
-        "colley_score": 0.516065967290246,
-        "colley_strength_of_schedule": 0.6061913752067454,
+        "braacket_rank": 46,
+        "colley_rank": 64,
+        "colley_score": 0.5137537099446718,
+        "colley_strength_of_schedule": 0.6036070875852214,
         "records": [
             {
                 "wins": 0,
@@ -3980,80 +4124,11 @@
         ]
     },
     {
-        "name": "Crowken",
-        "braacket_rank": 46,
-        "colley_rank": 67,
-        "colley_score": 0.48491275864067646,
-        "colley_strength_of_schedule": 0.5541860098750588,
-        "records": [
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Polear"
-            },
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Zealot"
-            },
-            {
-                "wins": 0,
-                "losses": 2,
-                "opponent": "Quest"
-            },
-            {
-                "wins": 1,
-                "losses": 1,
-                "opponent": "Janke"
-            },
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Kasumi"
-            },
-            {
-                "wins": 1,
-                "losses": 0,
-                "opponent": "Kite"
-            },
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Blankets"
-            },
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Rafael"
-            },
-            {
-                "wins": 1,
-                "losses": 0,
-                "opponent": "Brain Lag"
-            },
-            {
-                "wins": 1,
-                "losses": 0,
-                "opponent": "Gaywiggle"
-            },
-            {
-                "wins": 1,
-                "losses": 0,
-                "opponent": "Sir+"
-            },
-            {
-                "wins": 1,
-                "losses": 0,
-                "opponent": "Bearz"
-            }
-        ]
-    },
-    {
         "name": "Kicks",
         "braacket_rank": 47,
-        "colley_rank": 64,
-        "colley_score": 0.49534599072383784,
-        "colley_strength_of_schedule": 0.521171884484242,
+        "colley_rank": 67,
+        "colley_score": 0.49490890326044806,
+        "colley_strength_of_schedule": 0.5206887878141797,
         "records": [
             {
                 "wins": 0,
@@ -4128,7 +4203,7 @@
             {
                 "wins": 1,
                 "losses": 0,
-                "opponent": "Paul"
+                "opponent": "WYO | Daddison"
             },
             {
                 "wins": 1,
@@ -4138,7 +4213,7 @@
             {
                 "wins": 1,
                 "losses": 0,
-                "opponent": "WYO | Daddison"
+                "opponent": "Paul"
             },
             {
                 "wins": 1,
@@ -4151,8 +4226,8 @@
         "name": "Swid",
         "braacket_rank": 48,
         "colley_rank": 41,
-        "colley_score": 0.6128612502281259,
-        "colley_strength_of_schedule": 0.5580057503193763,
+        "colley_score": 0.613065770126645,
+        "colley_strength_of_schedule": 0.5582920781773029,
         "records": [
             {
                 "wins": 0,
@@ -4185,8 +4260,8 @@
         "name": "Hada",
         "braacket_rank": 49,
         "colley_rank": 55,
-        "colley_score": 0.5489057301385759,
-        "colley_strength_of_schedule": 0.627320834444087,
+        "colley_score": 0.5482232774573037,
+        "colley_strength_of_schedule": 0.6265408885226327,
         "records": [
             {
                 "wins": 0,
@@ -4259,8 +4334,8 @@
         "name": "fidibidi",
         "braacket_rank": 50,
         "colley_rank": 43,
-        "colley_score": 0.5948389767558114,
-        "colley_strength_of_schedule": 0.6185487209447645,
+        "colley_score": 0.595374961465003,
+        "colley_strength_of_schedule": 0.6192187018312538,
         "records": [
             {
                 "wins": 0,
@@ -4307,9 +4382,9 @@
     {
         "name": "SilkyLaroux",
         "braacket_rank": 51,
-        "colley_rank": 52,
-        "colley_score": 0.558367175179121,
-        "colley_strength_of_schedule": 0.6514283710423078,
+        "colley_rank": 53,
+        "colley_score": 0.5559443431789254,
+        "colley_strength_of_schedule": 0.6486017337087461,
         "records": [
             {
                 "wins": 0,
@@ -4377,8 +4452,8 @@
         "name": "JJFF",
         "braacket_rank": 52,
         "colley_rank": 48,
-        "colley_score": 0.5762635102935953,
-        "colley_strength_of_schedule": 0.5953293878669947,
+        "colley_score": 0.5748690723188149,
+        "colley_strength_of_schedule": 0.5935863403985191,
         "records": [
             {
                 "wins": 0,
@@ -4426,8 +4501,8 @@
         "name": "Kite",
         "braacket_rank": 53,
         "colley_rank": 66,
-        "colley_score": 0.49314073568062455,
-        "colley_strength_of_schedule": 0.5479341507562494,
+        "colley_score": 0.49590403292592794,
+        "colley_strength_of_schedule": 0.5510044810288085,
         "records": [
             {
                 "wins": 0,
@@ -4507,26 +4582,26 @@
             {
                 "wins": 1,
                 "losses": 0,
-                "opponent": "Fredrick"
-            },
-            {
-                "wins": 1,
-                "losses": 0,
                 "opponent": "Aarc"
             },
             {
                 "wins": 1,
                 "losses": 0,
                 "opponent": "JV | nom2king"
+            },
+            {
+                "wins": 1,
+                "losses": 0,
+                "opponent": "Fredrick"
             }
         ]
     },
     {
         "name": "shwang",
         "braacket_rank": 54,
-        "colley_rank": 51,
-        "colley_score": 0.5654494830704766,
-        "colley_strength_of_schedule": 0.5818118538380961,
+        "colley_rank": 50,
+        "colley_score": 0.5654239142779814,
+        "colley_strength_of_schedule": 0.581779892847477,
         "records": [
             {
                 "wins": 0,
@@ -4573,9 +4648,9 @@
     {
         "name": "Rinzler",
         "braacket_rank": 55,
-        "colley_rank": 76,
-        "colley_score": 0.45151737102784706,
-        "colley_strength_of_schedule": 0.5016859678087189,
+        "colley_rank": 77,
+        "colley_score": 0.44916170392136373,
+        "colley_strength_of_schedule": 0.4990685599126264,
         "records": [
             {
                 "wins": 0,
@@ -4655,12 +4730,12 @@
             {
                 "wins": 1,
                 "losses": 0,
-                "opponent": "Paul"
+                "opponent": "WYO | Daddison"
             },
             {
                 "wins": 1,
                 "losses": 0,
-                "opponent": "WYO | Daddison"
+                "opponent": "Paul"
             },
             {
                 "wins": 1,
@@ -4673,8 +4748,8 @@
         "name": "Ace?",
         "braacket_rank": 56,
         "colley_rank": 54,
-        "colley_score": 0.5492911463519615,
-        "colley_strength_of_schedule": 0.561613932939952,
+        "colley_score": 0.5499667850614096,
+        "colley_strength_of_schedule": 0.5624584813267622,
         "records": [
             {
                 "wins": 0,
@@ -4722,8 +4797,8 @@
         "name": "Balance | Fuji",
         "braacket_rank": 57,
         "colley_rank": 75,
-        "colley_score": 0.45536980112605513,
-        "colley_strength_of_schedule": 0.6160857746095288,
+        "colley_score": 0.45493409831018006,
+        "colley_strength_of_schedule": 0.6155919780848708,
         "records": [
             {
                 "wins": 0,
@@ -4786,8 +4861,8 @@
         "name": "Hod",
         "braacket_rank": 58,
         "colley_rank": 45,
-        "colley_score": 0.5813618401059422,
-        "colley_strength_of_schedule": 0.6017023001324275,
+        "colley_score": 0.5816169692371458,
+        "colley_strength_of_schedule": 0.6020212115464318,
         "records": [
             {
                 "wins": 0,
@@ -4829,9 +4904,9 @@
     {
         "name": "nj",
         "braacket_rank": 59,
-        "colley_rank": 56,
-        "colley_score": 0.5409461774904403,
-        "colley_strength_of_schedule": 0.5511827218630504,
+        "colley_rank": 57,
+        "colley_score": 0.5407750075261516,
+        "colley_strength_of_schedule": 0.5509687594076895,
         "records": [
             {
                 "wins": 0,
@@ -4878,9 +4953,9 @@
     {
         "name": "GLEN",
         "braacket_rank": 60,
-        "colley_rank": 87,
-        "colley_score": 0.4078273850470585,
-        "colley_strength_of_schedule": 0.5213058081779408,
+        "colley_rank": 88,
+        "colley_score": 0.40758371680224287,
+        "colley_strength_of_schedule": 0.5210316814025232,
         "records": [
             {
                 "wins": 0,
@@ -4955,11 +5030,45 @@
         ]
     },
     {
-        "name": "TsunamiGod77",
+        "name": "20xQuest",
         "braacket_rank": 61,
-        "colley_rank": 78,
-        "colley_score": 0.44448090014545083,
-        "colley_strength_of_schedule": 0.6037450201648443,
+        "colley_rank": 62,
+        "colley_score": 0.5193459921247481,
+        "colley_strength_of_schedule": 0.6270843889746474,
+        "records": [
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Zealot"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "KB | ChucklesTheCheat"
+            },
+            {
+                "wins": 1,
+                "losses": 0,
+                "opponent": "PkThundah"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Crowken"
+            },
+            {
+                "wins": 1,
+                "losses": 0,
+                "opponent": "Sir+"
+            }
+        ]
+    },
+    {
+        "name": "TsunamiGod77",
+        "braacket_rank": 62,
+        "colley_rank": 79,
+        "colley_score": 0.44412433485066966,
+        "colley_strength_of_schedule": 0.6033409128307591,
         "records": [
             {
                 "wins": 0,
@@ -5035,10 +5144,10 @@
     },
     {
         "name": "Veff",
-        "braacket_rank": 62,
-        "colley_rank": 86,
-        "colley_score": 0.4162746416540233,
-        "colley_strength_of_schedule": 0.5689870819296937,
+        "braacket_rank": 63,
+        "colley_rank": 87,
+        "colley_score": 0.41424738022337426,
+        "colley_strength_of_schedule": 0.5666219435939367,
         "records": [
             {
                 "wins": 0,
@@ -5104,10 +5213,10 @@
     },
     {
         "name": "BetaFish",
-        "braacket_rank": 63,
-        "colley_rank": 65,
-        "colley_score": 0.49467662923969025,
-        "colley_strength_of_schedule": 0.5645842375938874,
+        "braacket_rank": 64,
+        "colley_rank": 68,
+        "colley_score": 0.49464965702637304,
+        "colley_strength_of_schedule": 0.5645495590339085,
         "records": [
             {
                 "wins": 0,
@@ -5148,10 +5257,10 @@
     },
     {
         "name": "Blankets",
-        "braacket_rank": 64,
+        "braacket_rank": 65,
         "colley_rank": 71,
-        "colley_score": 0.4722646117453104,
-        "colley_strength_of_schedule": 0.46533076468163814,
+        "colley_score": 0.4782132117115697,
+        "colley_strength_of_schedule": 0.47276651463946207,
         "records": [
             {
                 "wins": 0,
@@ -5197,10 +5306,10 @@
     },
     {
         "name": "MP3",
-        "braacket_rank": 65,
+        "braacket_rank": 66,
         "colley_rank": 49,
-        "colley_score": 0.5740431452291375,
-        "colley_strength_of_schedule": 0.6666269010088905,
+        "colley_score": 0.5732000739600888,
+        "colley_strength_of_schedule": 0.6655429522344003,
         "records": [
             {
                 "wins": 0,
@@ -5241,10 +5350,10 @@
     },
     {
         "name": "Slick",
-        "braacket_rank": 66,
-        "colley_rank": 57,
-        "colley_score": 0.5383478826138623,
-        "colley_strength_of_schedule": 0.5575218239207934,
+        "braacket_rank": 67,
+        "colley_rank": 58,
+        "colley_score": 0.5390518808104177,
+        "colley_strength_of_schedule": 0.5585778212156267,
         "records": [
             {
                 "wins": 0,
@@ -5270,10 +5379,10 @@
     },
     {
         "name": "Critius",
-        "braacket_rank": 67,
-        "colley_rank": 53,
-        "colley_score": 0.5558507523825711,
-        "colley_strength_of_schedule": 0.5837761285738564,
+        "braacket_rank": 68,
+        "colley_rank": 52,
+        "colley_score": 0.5569101304261485,
+        "colley_strength_of_schedule": 0.5853651956392227,
         "records": [
             {
                 "wins": 0,
@@ -5299,10 +5408,10 @@
     },
     {
         "name": "Jakan0id",
-        "braacket_rank": 68,
-        "colley_rank": 91,
-        "colley_score": 0.39152683727823145,
-        "colley_strength_of_schedule": 0.4698322047338778,
+        "braacket_rank": 69,
+        "colley_rank": 92,
+        "colley_score": 0.39243068724604396,
+        "colley_strength_of_schedule": 0.470916824695253,
         "records": [
             {
                 "wins": 0,
@@ -5358,10 +5467,10 @@
     },
     {
         "name": "moeznr",
-        "braacket_rank": 69,
-        "colley_rank": 77,
-        "colley_score": 0.4487652748836591,
-        "colley_strength_of_schedule": 0.43595659360457373,
+        "braacket_rank": 70,
+        "colley_rank": 78,
+        "colley_score": 0.44836682528084715,
+        "colley_strength_of_schedule": 0.4354585316010589,
         "records": [
             {
                 "wins": 0,
@@ -5407,10 +5516,10 @@
     },
     {
         "name": "Grim",
-        "braacket_rank": 70,
-        "colley_rank": 59,
-        "colley_score": 0.5312728771511137,
-        "colley_strength_of_schedule": 0.5469093157266703,
+        "braacket_rank": 71,
+        "colley_rank": 60,
+        "colley_score": 0.5311302326429868,
+        "colley_strength_of_schedule": 0.5466953489644804,
         "records": [
             {
                 "wins": 0,
@@ -5436,10 +5545,10 @@
     },
     {
         "name": "Rafael",
-        "braacket_rank": 71,
+        "braacket_rank": 72,
         "colley_rank": 70,
-        "colley_score": 0.47595146696251167,
-        "colley_strength_of_schedule": 0.6346019559500155,
+        "colley_score": 0.48244824515173207,
+        "colley_strength_of_schedule": 0.6432643268689762,
         "records": [
             {
                 "wins": 0,
@@ -5475,10 +5584,10 @@
     },
     {
         "name": "Whoratio",
-        "braacket_rank": 72,
-        "colley_rank": 63,
-        "colley_score": 0.5122885169012911,
-        "colley_strength_of_schedule": 0.6816859651015781,
+        "braacket_rank": 73,
+        "colley_rank": 65,
+        "colley_score": 0.5091811608888425,
+        "colley_strength_of_schedule": 0.6778880855308076,
         "records": [
             {
                 "wins": 0,
@@ -5524,10 +5633,10 @@
     },
     {
         "name": "Jcorn",
-        "braacket_rank": 73,
-        "colley_rank": 96,
-        "colley_score": 0.3533620467594902,
-        "colley_strength_of_schedule": 0.5037356075105446,
+        "braacket_rank": 74,
+        "colley_rank": 97,
+        "colley_score": 0.3532269262978681,
+        "colley_strength_of_schedule": 0.5035854736642978,
         "records": [
             {
                 "wins": 0,
@@ -5623,10 +5732,10 @@
     },
     {
         "name": "Sluj",
-        "braacket_rank": 74,
-        "colley_rank": 69,
-        "colley_score": 0.4770470750835737,
-        "colley_strength_of_schedule": 0.36786590511700323,
+        "braacket_rank": 75,
+        "colley_rank": 72,
+        "colley_score": 0.4764191671052036,
+        "colley_strength_of_schedule": 0.366986833947285,
         "records": [
             {
                 "wins": 0,
@@ -5657,10 +5766,10 @@
     },
     {
         "name": "Brain Lag",
-        "braacket_rank": 75,
-        "colley_rank": 106,
-        "colley_score": 0.30196152368902224,
-        "colley_strength_of_schedule": 0.4422230601808918,
+        "braacket_rank": 76,
+        "colley_rank": 107,
+        "colley_score": 0.30553702597790444,
+        "colley_strength_of_schedule": 0.4462752961082918,
         "records": [
             {
                 "wins": 0,
@@ -5741,10 +5850,10 @@
     },
     {
         "name": "OmniOpal",
-        "braacket_rank": 76,
-        "colley_rank": 105,
-        "colley_score": 0.31398725841315905,
-        "colley_strength_of_schedule": 0.5407356657148039,
+        "braacket_rank": 77,
+        "colley_rank": 106,
+        "colley_score": 0.3136484432116431,
+        "colley_strength_of_schedule": 0.5403544986130986,
         "records": [
             {
                 "wins": 0,
@@ -5825,10 +5934,10 @@
     },
     {
         "name": "CowboyDan",
-        "braacket_rank": 77,
-        "colley_rank": 68,
-        "colley_score": 0.4842983033891647,
-        "colley_strength_of_schedule": 0.6404971723152747,
+        "braacket_rank": 78,
+        "colley_rank": 69,
+        "colley_score": 0.48368885153052327,
+        "colley_strength_of_schedule": 0.6394814192175386,
         "records": [
             {
                 "wins": 0,
@@ -5849,10 +5958,10 @@
     },
     {
         "name": "Jota Jota",
-        "braacket_rank": 78,
-        "colley_rank": 79,
-        "colley_score": 0.44356310973134055,
-        "colley_strength_of_schedule": 0.49886685536886644,
+        "braacket_rank": 79,
+        "colley_rank": 80,
+        "colley_score": 0.44297885397512077,
+        "colley_strength_of_schedule": 0.4981156693965838,
         "records": [
             {
                 "wins": 0,
@@ -5893,10 +6002,10 @@
     },
     {
         "name": "rari odd-knee",
-        "braacket_rank": 79,
-        "colley_rank": 60,
-        "colley_score": 0.5280608246401535,
-        "colley_strength_of_schedule": 0.7134347077335893,
+        "braacket_rank": 80,
+        "colley_rank": 61,
+        "colley_score": 0.527268849492399,
+        "colley_strength_of_schedule": 0.7121147491539986,
         "records": [
             {
                 "wins": 0,
@@ -5917,10 +6026,10 @@
     },
     {
         "name": "Premo",
-        "braacket_rank": 80,
-        "colley_rank": 73,
-        "colley_score": 0.46391842573596886,
-        "colley_strength_of_schedule": 0.5250379759462457,
+        "braacket_rank": 81,
+        "colley_rank": 74,
+        "colley_score": 0.4646038463435052,
+        "colley_strength_of_schedule": 0.5259192310130782,
         "records": [
             {
                 "wins": 0,
@@ -5956,10 +6065,10 @@
     },
     {
         "name": "SlamDuncan",
-        "braacket_rank": 81,
-        "colley_rank": 93,
-        "colley_score": 0.3738102724320137,
-        "colley_strength_of_schedule": 0.49841369657601836,
+        "braacket_rank": 82,
+        "colley_rank": 94,
+        "colley_score": 0.37411039286244757,
+        "colley_strength_of_schedule": 0.49881385714993026,
         "records": [
             {
                 "wins": 0,
@@ -5990,10 +6099,10 @@
     },
     {
         "name": "Matix",
-        "braacket_rank": 82,
-        "colley_rank": 61,
-        "colley_score": 0.5210184483163437,
-        "colley_strength_of_schedule": 0.6946912644217917,
+        "braacket_rank": 83,
+        "colley_rank": 63,
+        "colley_score": 0.5158753162717421,
+        "colley_strength_of_schedule": 0.6878337550289894,
         "records": [
             {
                 "wins": 0,
@@ -6029,10 +6138,10 @@
     },
     {
         "name": "fkribs",
-        "braacket_rank": 83,
-        "colley_rank": 90,
-        "colley_score": 0.39844737990454543,
-        "colley_strength_of_schedule": 0.3476710698568179,
+        "braacket_rank": 84,
+        "colley_rank": 91,
+        "colley_score": 0.39843176417893844,
+        "colley_strength_of_schedule": 0.3476476462684075,
         "records": [
             {
                 "wins": 0,
@@ -6058,10 +6167,10 @@
     },
     {
         "name": "Nara Sumas",
-        "braacket_rank": 84,
-        "colley_rank": 83,
-        "colley_score": 0.42223584975038253,
-        "colley_strength_of_schedule": 0.38335377462557396,
+        "braacket_rank": 85,
+        "colley_rank": 84,
+        "colley_score": 0.4226233212531195,
+        "colley_strength_of_schedule": 0.38393498187967917,
         "records": [
             {
                 "wins": 0,
@@ -6087,10 +6196,10 @@
     },
     {
         "name": "WI64 | Isildur",
-        "braacket_rank": 85,
-        "colley_rank": 74,
-        "colley_score": 0.4554916887933634,
-        "colley_strength_of_schedule": 0.433237533190045,
+        "braacket_rank": 86,
+        "colley_rank": 76,
+        "colley_score": 0.45463908069075054,
+        "colley_strength_of_schedule": 0.43195862103612553,
         "records": [
             {
                 "wins": 0,
@@ -6116,10 +6225,10 @@
     },
     {
         "name": "Spice",
-        "braacket_rank": 86,
-        "colley_rank": 98,
-        "colley_score": 0.3447451771889199,
-        "colley_strength_of_schedule": 0.4596602362518931,
+        "braacket_rank": 87,
+        "colley_rank": 99,
+        "colley_score": 0.3454165710332361,
+        "colley_strength_of_schedule": 0.46055542804431493,
         "records": [
             {
                 "wins": 0,
@@ -6155,10 +6264,10 @@
     },
     {
         "name": "Mateo",
-        "braacket_rank": 87,
-        "colley_rank": 80,
-        "colley_score": 0.4353203508583659,
-        "colley_strength_of_schedule": 0.40298052628754943,
+        "braacket_rank": 88,
+        "colley_rank": 81,
+        "colley_score": 0.43542086176864614,
+        "colley_strength_of_schedule": 0.4031312926529696,
         "records": [
             {
                 "wins": 0,
@@ -6173,21 +6282,21 @@
             {
                 "wins": 1,
                 "losses": 0,
-                "opponent": "BIG FUNKY"
+                "opponent": "(not Mayz) | Shiverr"
             },
             {
                 "wins": 1,
                 "losses": 0,
-                "opponent": "(not Mayz) | Shiverr"
+                "opponent": "BIG FUNKY"
             }
         ]
     },
     {
         "name": "waddledoo",
-        "braacket_rank": 88,
-        "colley_rank": 92,
-        "colley_score": 0.3788557803162466,
-        "colley_strength_of_schedule": 0.4647596338604112,
+        "braacket_rank": 89,
+        "colley_rank": 93,
+        "colley_score": 0.3785643711091498,
+        "colley_strength_of_schedule": 0.46427395184858294,
         "records": [
             {
                 "wins": 0,
@@ -6208,10 +6317,10 @@
     },
     {
         "name": "Chair",
-        "braacket_rank": 89,
-        "colley_rank": 72,
-        "colley_score": 0.4677340997119819,
-        "colley_strength_of_schedule": 0.4516011495679727,
+        "braacket_rank": 90,
+        "colley_rank": 73,
+        "colley_score": 0.46846673371116415,
+        "colley_strength_of_schedule": 0.4527001005667463,
         "records": [
             {
                 "wins": 0,
@@ -6237,10 +6346,10 @@
     },
     {
         "name": "Gaywiggle",
-        "braacket_rank": 90,
-        "colley_rank": 110,
-        "colley_score": 0.2757010813515063,
-        "colley_strength_of_schedule": 0.4696263516893826,
+        "braacket_rank": 91,
+        "colley_rank": 109,
+        "colley_score": 0.2815923666260689,
+        "colley_strength_of_schedule": 0.4769904582825862,
         "records": [
             {
                 "wins": 0,
@@ -6286,10 +6395,10 @@
     },
     {
         "name": "paprika",
-        "braacket_rank": 91,
-        "colley_rank": 82,
-        "colley_score": 0.4321913076783777,
-        "colley_strength_of_schedule": 0.5536521794639628,
+        "braacket_rank": 92,
+        "colley_rank": 83,
+        "colley_score": 0.4322423540634813,
+        "colley_strength_of_schedule": 0.5537372567724689,
         "records": [
             {
                 "wins": 0,
@@ -6310,10 +6419,10 @@
     },
     {
         "name": "DDOG",
-        "braacket_rank": 92,
-        "colley_rank": 84,
-        "colley_score": 0.41858066802883037,
-        "colley_strength_of_schedule": 0.530967780048051,
+        "braacket_rank": 93,
+        "colley_rank": 85,
+        "colley_score": 0.41831181669745665,
+        "colley_strength_of_schedule": 0.5305196944957609,
         "records": [
             {
                 "wins": 0,
@@ -6333,60 +6442,11 @@
         ]
     },
     {
-        "name": "Sir+",
-        "braacket_rank": 93,
-        "colley_rank": 107,
-        "colley_score": 0.2981987052351654,
-        "colley_strength_of_schedule": 0.49774838154395684,
-        "records": [
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Janke"
-            },
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Gingerham"
-            },
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Jab"
-            },
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Slatty"
-            },
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Crowken"
-            },
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Rinzler"
-            },
-            {
-                "wins": 1,
-                "losses": 0,
-                "opponent": "Turnip Farmer"
-            },
-            {
-                "wins": 1,
-                "losses": 0,
-                "opponent": "chozo"
-            }
-        ]
-    },
-    {
         "name": "Sickly",
         "braacket_rank": 94,
-        "colley_rank": 58,
-        "colley_score": 0.5340378272303578,
-        "colley_strength_of_schedule": 0.723396378717263,
+        "colley_rank": 59,
+        "colley_score": 0.5343888118953701,
+        "colley_strength_of_schedule": 0.7239813531589497,
         "records": [
             {
                 "wins": 0,
@@ -6406,11 +6466,80 @@
         ]
     },
     {
-        "name": "Fallen",
+        "name": "Sir+",
         "braacket_rank": 95,
-        "colley_rank": 50,
-        "colley_score": 0.5719742098293694,
-        "colley_strength_of_schedule": 0.7866236830489498,
+        "colley_rank": 115,
+        "colley_score": 0.2604176572552689,
+        "colley_strength_of_schedule": 0.5697126814483873,
+        "records": [
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Zealot"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Janke"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "KB | ChucklesTheCheat"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Gingerham"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Jab"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "PkThundah"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Slatty"
+            },
+            {
+                "wins": 0,
+                "losses": 2,
+                "opponent": "Crowken"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Rinzler"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "20xQuest"
+            },
+            {
+                "wins": 1,
+                "losses": 0,
+                "opponent": "chozo"
+            },
+            {
+                "wins": 1,
+                "losses": 0,
+                "opponent": "Turnip Farmer"
+            }
+        ]
+    },
+    {
+        "name": "Fallen",
+        "braacket_rank": 96,
+        "colley_rank": 51,
+        "colley_score": 0.5645610794815428,
+        "colley_strength_of_schedule": 0.7742684658025714,
         "records": [
             {
                 "wins": 0,
@@ -6431,10 +6560,10 @@
     },
     {
         "name": "freekush",
-        "braacket_rank": 96,
-        "colley_rank": 114,
-        "colley_score": 0.2619894808305672,
-        "colley_strength_of_schedule": 0.5556543943023284,
+        "braacket_rank": 97,
+        "colley_rank": 113,
+        "colley_score": 0.26210617651677043,
+        "colley_strength_of_schedule": 0.5557905392695656,
         "records": [
             {
                 "wins": 0,
@@ -6495,10 +6624,10 @@
     },
     {
         "name": "DN | Silas",
-        "braacket_rank": 97,
-        "colley_rank": 103,
-        "colley_score": 0.3254831128420175,
-        "colley_strength_of_schedule": 0.5905797354104211,
+        "braacket_rank": 98,
+        "colley_rank": 104,
+        "colley_score": 0.32397518465869474,
+        "colley_strength_of_schedule": 0.588770221590434,
         "records": [
             {
                 "wins": 0,
@@ -6518,12 +6647,12 @@
             {
                 "wins": 0,
                 "losses": 1,
-                "opponent": "Stinky"
+                "opponent": "KB | ChucklesTheCheat"
             },
             {
                 "wins": 0,
                 "losses": 1,
-                "opponent": "KB | ChucklesTheCheat"
+                "opponent": "Stinky"
             },
             {
                 "wins": 0,
@@ -6554,10 +6683,10 @@
     },
     {
         "name": "ily",
-        "braacket_rank": 98,
-        "colley_rank": 85,
-        "colley_score": 0.41636979691809783,
-        "colley_strength_of_schedule": 0.527282994863497,
+        "braacket_rank": 99,
+        "colley_rank": 86,
+        "colley_score": 0.41696009177967147,
+        "colley_strength_of_schedule": 0.5282668196327862,
         "records": [
             {
                 "wins": 0,
@@ -6578,10 +6707,10 @@
     },
     {
         "name": "NicV",
-        "braacket_rank": 99,
-        "colley_rank": 97,
-        "colley_score": 0.34539336438584656,
-        "colley_strength_of_schedule": 0.4089889406430773,
+        "braacket_rank": 100,
+        "colley_rank": 98,
+        "colley_score": 0.3460416062517315,
+        "colley_strength_of_schedule": 0.4100693437528857,
         "records": [
             {
                 "wins": 0,
@@ -6602,10 +6731,10 @@
     },
     {
         "name": "4LEX",
-        "braacket_rank": 100,
-        "colley_rank": 81,
-        "colley_score": 0.43456099476569865,
-        "colley_strength_of_schedule": 0.5576016579428312,
+        "braacket_rank": 101,
+        "colley_rank": 82,
+        "colley_score": 0.43238221646861563,
+        "colley_strength_of_schedule": 0.5539703607810259,
         "records": [
             {
                 "wins": 0,
@@ -6626,10 +6755,10 @@
     },
     {
         "name": "sans",
-        "braacket_rank": 101,
-        "colley_rank": 128,
-        "colley_score": 0.19800231482715108,
-        "colley_strength_of_schedule": 0.4810027006316764,
+        "braacket_rank": 102,
+        "colley_rank": 129,
+        "colley_score": 0.19828653892906864,
+        "colley_strength_of_schedule": 0.48133429541724665,
         "records": [
             {
                 "wins": 0,
@@ -6695,10 +6824,10 @@
     },
     {
         "name": "Bandit",
-        "braacket_rank": 102,
-        "colley_rank": 99,
-        "colley_score": 0.3423186991615302,
-        "colley_strength_of_schedule": 0.4038644986025503,
+        "braacket_rank": 103,
+        "colley_rank": 100,
+        "colley_score": 0.3421332065739433,
+        "colley_strength_of_schedule": 0.40355534428990536,
         "records": [
             {
                 "wins": 0,
@@ -6719,10 +6848,10 @@
     },
     {
         "name": "Tricolour",
-        "braacket_rank": 103,
-        "colley_rank": 101,
-        "colley_score": 0.3345248681702752,
-        "colley_strength_of_schedule": 0.39087478028379213,
+        "braacket_rank": 104,
+        "colley_rank": 102,
+        "colley_score": 0.3349076781541208,
+        "colley_strength_of_schedule": 0.3915127969235348,
         "records": [
             {
                 "wins": 0,
@@ -6743,10 +6872,10 @@
     },
     {
         "name": "CU",
-        "braacket_rank": 104,
-        "colley_rank": 122,
-        "colley_score": 0.23726361409574837,
-        "colley_strength_of_schedule": 0.5193389324088193,
+        "braacket_rank": 105,
+        "colley_rank": 126,
+        "colley_score": 0.23284147396438615,
+        "colley_strength_of_schedule": 0.5136533236684965,
         "records": [
             {
                 "wins": 0,
@@ -6787,10 +6916,10 @@
     },
     {
         "name": "Smitty Wilikers",
-        "braacket_rank": 105,
-        "colley_rank": 104,
-        "colley_score": 0.3176232607884259,
-        "colley_strength_of_schedule": 0.3627054346473763,
+        "braacket_rank": 106,
+        "colley_rank": 105,
+        "colley_score": 0.31714719996627666,
+        "colley_strength_of_schedule": 0.3619119999437945,
         "records": [
             {
                 "wins": 0,
@@ -6811,10 +6940,10 @@
     },
     {
         "name": "RAVN",
-        "braacket_rank": 106,
-        "colley_rank": 136,
-        "colley_score": 0.17616493828069113,
-        "colley_strength_of_schedule": 0.4407834920751742,
+        "braacket_rank": 107,
+        "colley_rank": 135,
+        "colley_score": 0.1767079100088118,
+        "colley_strength_of_schedule": 0.441481598582758,
         "records": [
             {
                 "wins": 0,
@@ -6855,10 +6984,10 @@
     },
     {
         "name": "D.S. | Dinosquad",
-        "braacket_rank": 107,
-        "colley_rank": 95,
-        "colley_score": 0.35598584240690173,
-        "colley_strength_of_schedule": 0.7119716848138038,
+        "braacket_rank": 108,
+        "colley_rank": 96,
+        "colley_score": 0.3559268478449363,
+        "colley_strength_of_schedule": 0.7118536956898723,
         "records": [
             {
                 "wins": 0,
@@ -6874,10 +7003,10 @@
     },
     {
         "name": "Paeve",
-        "braacket_rank": 108,
-        "colley_rank": 135,
-        "colley_score": 0.17649567156426788,
-        "colley_strength_of_schedule": 0.5498026979587705,
+        "braacket_rank": 109,
+        "colley_rank": 136,
+        "colley_score": 0.17657971634756137,
+        "colley_strength_of_schedule": 0.5498996727087248,
         "records": [
             {
                 "wins": 0,
@@ -6948,10 +7077,10 @@
     },
     {
         "name": "moth",
-        "braacket_rank": 109,
+        "braacket_rank": 110,
         "colley_rank": 89,
-        "colley_score": 0.39854446969469687,
-        "colley_strength_of_schedule": 0.7970889393893936,
+        "colley_score": 0.4072992292931389,
+        "colley_strength_of_schedule": 0.8145984585862776,
         "records": [
             {
                 "wins": 0,
@@ -6967,10 +7096,10 @@
     },
     {
         "name": "Tweeter",
-        "braacket_rank": 110,
-        "colley_rank": 94,
-        "colley_score": 0.35780611446627886,
-        "colley_strength_of_schedule": 0.7156122289325578,
+        "braacket_rank": 111,
+        "colley_rank": 95,
+        "colley_score": 0.3575598833946064,
+        "colley_strength_of_schedule": 0.7151197667892124,
         "records": [
             {
                 "wins": 0,
@@ -6986,10 +7115,10 @@
     },
     {
         "name": "tourus",
-        "braacket_rank": 111,
-        "colley_rank": 88,
-        "colley_score": 0.40369956490927067,
-        "colley_strength_of_schedule": 0.8073991298185411,
+        "braacket_rank": 112,
+        "colley_rank": 90,
+        "colley_score": 0.4047679616423467,
+        "colley_strength_of_schedule": 0.8095359232846936,
         "records": [
             {
                 "wins": 0,
@@ -7005,10 +7134,10 @@
     },
     {
         "name": "meapz",
-        "braacket_rank": 112,
+        "braacket_rank": 113,
         "colley_rank": 112,
-        "colley_score": 0.2680580128385858,
-        "colley_strength_of_schedule": 0.6520870192578787,
+        "colley_score": 0.2672454087481116,
+        "colley_strength_of_schedule": 0.6508681131221674,
         "records": [
             {
                 "wins": 0,
@@ -7034,29 +7163,10 @@
     },
     {
         "name": "RemoRuby",
-        "braacket_rank": 113,
-        "colley_rank": 125,
-        "colley_score": 0.2367158404379212,
-        "colley_strength_of_schedule": 0.4734316808758424,
-        "records": [
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Kicks"
-            },
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Rinzler"
-            }
-        ]
-    },
-    {
-        "name": "Paul",
         "braacket_rank": 114,
-        "colley_rank": 123,
-        "colley_score": 0.23671584043792132,
-        "colley_strength_of_schedule": 0.4734316808758424,
+        "colley_rank": 125,
+        "colley_score": 0.23601765179545287,
+        "colley_strength_of_schedule": 0.4720353035909059,
         "records": [
             {
                 "wins": 0,
@@ -7067,34 +7177,15 @@
                 "wins": 0,
                 "losses": 1,
                 "opponent": "Rinzler"
-            }
-        ]
-    },
-    {
-        "name": "deus ex maka",
-        "braacket_rank": 115,
-        "colley_rank": 130,
-        "colley_score": 0.19451386203020332,
-        "colley_strength_of_schedule": 0.38902772406040664,
-        "records": [
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "MothersDay"
-            },
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "freekush"
             }
         ]
     },
     {
         "name": "thicclet",
-        "braacket_rank": 116,
-        "colley_rank": 121,
-        "colley_score": 0.2383926540039223,
-        "colley_strength_of_schedule": 0.4767853080078448,
+        "braacket_rank": 115,
+        "colley_rank": 122,
+        "colley_score": 0.2372168546129131,
+        "colley_strength_of_schedule": 0.47443370922582634,
         "records": [
             {
                 "wins": 0,
@@ -7109,68 +7200,11 @@
         ]
     },
     {
-        "name": "Caenis",
-        "braacket_rank": 117,
-        "colley_rank": 115,
-        "colley_score": 0.2602586014290407,
-        "colley_strength_of_schedule": 0.5205172028580811,
-        "records": [
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "AceBox"
-            },
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "TsunamiGod77"
-            }
-        ]
-    },
-    {
-        "name": "Furistic",
-        "braacket_rank": 118,
-        "colley_rank": 139,
-        "colley_score": 0.16383089261212808,
-        "colley_strength_of_schedule": 0.3276617852242562,
-        "records": [
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Jcorn"
-            },
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Brain Lag"
-            }
-        ]
-    },
-    {
-        "name": "Tempo | Joe2D",
-        "braacket_rank": 119,
-        "colley_rank": 120,
-        "colley_score": 0.24402376705131948,
-        "colley_strength_of_schedule": 0.488047534102639,
-        "records": [
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Quest"
-            },
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "freekush"
-            }
-        ]
-    },
-    {
         "name": "Kura",
-        "braacket_rank": 120,
-        "colley_rank": 133,
-        "colley_score": 0.181350350425711,
-        "colley_strength_of_schedule": 0.3627007008514219,
+        "braacket_rank": 116,
+        "colley_rank": 134,
+        "colley_score": 0.18120074845121617,
+        "colley_strength_of_schedule": 0.3624014969024325,
         "records": [
             {
                 "wins": 0,
@@ -7185,11 +7219,30 @@
         ]
     },
     {
+        "name": "Furistic",
+        "braacket_rank": 117,
+        "colley_rank": 139,
+        "colley_score": 0.16469098806894322,
+        "colley_strength_of_schedule": 0.3293819761378863,
+        "records": [
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Jcorn"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Brain Lag"
+            }
+        ]
+    },
+    {
         "name": "destinybond",
-        "braacket_rank": 121,
-        "colley_rank": 138,
-        "colley_score": 0.16431664586075892,
-        "colley_strength_of_schedule": 0.5524221944810119,
+        "braacket_rank": 118,
+        "colley_rank": 140,
+        "colley_score": 0.16413549589783596,
+        "colley_strength_of_schedule": 0.5521806611971147,
         "records": [
             {
                 "wins": 0,
@@ -7224,17 +7277,50 @@
         ]
     },
     {
-        "name": "crank ocean",
-        "braacket_rank": 122,
-        "colley_rank": 140,
-        "colley_score": 0.15406017022666116,
-        "colley_strength_of_schedule": 0.4810902553399917,
+        "name": "deus ex maka",
+        "braacket_rank": 119,
+        "colley_rank": 131,
+        "colley_score": 0.19396497161536053,
+        "colley_strength_of_schedule": 0.38792994323072116,
         "records": [
             {
                 "wins": 0,
                 "losses": 1,
-                "opponent": "Phazon"
+                "opponent": "MothersDay"
             },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "freekush"
+            }
+        ]
+    },
+    {
+        "name": "Tempo | Joe2D",
+        "braacket_rank": 120,
+        "colley_rank": 121,
+        "colley_score": 0.24452909001220652,
+        "colley_strength_of_schedule": 0.48905818002441315,
+        "records": [
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Quest"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "freekush"
+            }
+        ]
+    },
+    {
+        "name": "Caenis",
+        "braacket_rank": 121,
+        "colley_rank": 116,
+        "colley_score": 0.2600989552308805,
+        "colley_strength_of_schedule": 0.520197910461761,
+        "records": [
             {
                 "wins": 0,
                 "losses": 1,
@@ -7243,54 +7329,16 @@
             {
                 "wins": 0,
                 "losses": 1,
-                "opponent": "Spice"
-            },
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "CU"
-            }
-        ]
-    },
-    {
-        "name": "Fredrick",
-        "braacket_rank": 123,
-        "colley_rank": 102,
-        "colley_score": 0.3310469118935413,
-        "colley_strength_of_schedule": 0.49314073568062455,
-        "records": [
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Kite"
-            }
-        ]
-    },
-    {
-        "name": "Nunu",
-        "braacket_rank": 124,
-        "colley_rank": 129,
-        "colley_score": 0.1947514420789316,
-        "colley_strength_of_schedule": 0.38950288415786305,
-        "records": [
-            {
-                "wins": 0,
-                "losses": 1,
                 "opponent": "TsunamiGod77"
-            },
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Tricolour"
             }
         ]
     },
     {
         "name": "Yalleat",
-        "braacket_rank": 125,
-        "colley_rank": 141,
-        "colley_score": 0.14599808083193738,
-        "colley_strength_of_schedule": 0.2919961616638748,
+        "braacket_rank": 122,
+        "colley_rank": 142,
+        "colley_score": 0.1460729067027636,
+        "colley_strength_of_schedule": 0.29214581340552737,
         "records": [
             {
                 "wins": 0,
@@ -7305,155 +7353,11 @@
         ]
     },
     {
-        "name": "smokeyboi",
-        "braacket_rank": 126,
-        "colley_rank": 143,
-        "colley_score": 0.11815833704996082,
-        "colley_strength_of_schedule": 0.4272375055749413,
-        "records": [
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Hod"
-            },
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Blankets"
-            },
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Jcorn"
-            },
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Brain Lag"
-            }
-        ]
-    },
-    {
-        "name": "Sammyy :)",
-        "braacket_rank": 127,
-        "colley_rank": 134,
-        "colley_score": 0.18104934335985123,
-        "colley_strength_of_schedule": 0.36209868671970236,
-        "records": [
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Brain Lag"
-            },
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Nara Sumas"
-            }
-        ]
-    },
-    {
-        "name": "Bearz",
-        "braacket_rank": 128,
-        "colley_rank": 142,
-        "colley_score": 0.1314966950361112,
-        "colley_strength_of_schedule": 0.5086622600481484,
-        "records": [
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Jab"
-            },
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Crowken"
-            },
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Ace?"
-            },
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Jakan0id"
-            },
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Premo"
-            },
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Chair"
-            }
-        ]
-    },
-    {
-        "name": "gems | HockeyHands",
-        "braacket_rank": 129,
-        "colley_rank": 119,
-        "colley_score": 0.24749552360414687,
-        "colley_strength_of_schedule": 0.494991047208294,
-        "records": [
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "zapwad"
-            },
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "fkribs"
-            }
-        ]
-    },
-    {
-        "name": "BIG FUNKY",
-        "braacket_rank": 130,
-        "colley_rank": 109,
-        "colley_score": 0.27875628039557043,
-        "colley_strength_of_schedule": 0.5575125607911409,
-        "records": [
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Stinky"
-            },
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Mateo"
-            }
-        ]
-    },
-    {
-        "name": "RowBoat",
-        "braacket_rank": 131,
-        "colley_rank": 126,
-        "colley_score": 0.21217700937083203,
-        "colley_strength_of_schedule": 0.424354018741664,
-        "records": [
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Kicks"
-            },
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Jcorn"
-            }
-        ]
-    },
-    {
         "name": "WYO | Daddison",
-        "braacket_rank": 132,
+        "braacket_rank": 123,
         "colley_rank": 124,
-        "colley_score": 0.2367158404379212,
-        "colley_strength_of_schedule": 0.4734316808758424,
+        "colley_score": 0.2360176517954529,
+        "colley_strength_of_schedule": 0.4720353035909059,
         "records": [
             {
                 "wins": 0,
@@ -7464,148 +7368,15 @@
                 "wins": 0,
                 "losses": 1,
                 "opponent": "Rinzler"
-            }
-        ]
-    },
-    {
-        "name": "Aarc",
-        "braacket_rank": 133,
-        "colley_rank": 118,
-        "colley_score": 0.2585217282927662,
-        "colley_strength_of_schedule": 0.5170434565855324,
-        "records": [
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Kite"
-            },
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "nj"
-            }
-        ]
-    },
-    {
-        "name": "NIKE",
-        "braacket_rank": 134,
-        "colley_rank": 116,
-        "colley_score": 0.2600749973489254,
-        "colley_strength_of_schedule": 0.5201499946978508,
-        "records": [
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "zapwad"
-            },
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "moeznr"
-            }
-        ]
-    },
-    {
-        "name": "The machinist",
-        "braacket_rank": 135,
-        "colley_rank": 113,
-        "colley_score": 0.2620177191496396,
-        "colley_strength_of_schedule": 0.5240354382992791,
-        "records": [
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "AceBox"
-            },
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Rinzler"
-            }
-        ]
-    },
-    {
-        "name": "Slothy",
-        "braacket_rank": 136,
-        "colley_rank": 111,
-        "colley_score": 0.26863697565484174,
-        "colley_strength_of_schedule": 0.5372739513096836,
-        "records": [
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Spin"
-            },
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "moeznr"
-            }
-        ]
-    },
-    {
-        "name": "Coconut in Pants",
-        "braacket_rank": 137,
-        "colley_rank": 127,
-        "colley_score": 0.212177009370832,
-        "colley_strength_of_schedule": 0.424354018741664,
-        "records": [
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Kicks"
-            },
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Jcorn"
-            }
-        ]
-    },
-    {
-        "name": "Turnip Farmer",
-        "braacket_rank": 138,
-        "colley_rank": 132,
-        "colley_score": 0.18318992500021597,
-        "colley_strength_of_schedule": 0.36637985000043205,
-        "records": [
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Sir+"
-            },
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "4LEX"
-            }
-        ]
-    },
-    {
-        "name": "JV | nom2king",
-        "braacket_rank": 139,
-        "colley_rank": 117,
-        "colley_score": 0.2585217282927662,
-        "colley_strength_of_schedule": 0.5170434565855324,
-        "records": [
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "Kite"
-            },
-            {
-                "wins": 0,
-                "losses": 1,
-                "opponent": "nj"
             }
         ]
     },
     {
         "name": "chozo",
-        "braacket_rank": 140,
-        "colley_rank": 137,
-        "colley_score": 0.17241341755737352,
-        "colley_strength_of_schedule": 0.563217890076498,
+        "braacket_rank": 124,
+        "colley_rank": 138,
+        "colley_score": 0.16750846844052952,
+        "colley_strength_of_schedule": 0.5566779579207061,
         "records": [
             {
                 "wins": 0,
@@ -7640,30 +7411,231 @@
         ]
     },
     {
-        "name": "909 | TRAP CARD",
-        "braacket_rank": 141,
-        "colley_rank": 108,
-        "colley_score": 0.2944975080457412,
-        "colley_strength_of_schedule": 0.5889950160914825,
+        "name": "(not Mayz) | Shiverr",
+        "braacket_rank": 125,
+        "colley_rank": 132,
+        "colley_score": 0.1898490116068353,
+        "colley_strength_of_schedule": 0.3796980232136704,
         "records": [
             {
                 "wins": 0,
                 "losses": 1,
-                "opponent": "Phazon"
+                "opponent": "Mateo"
             },
             {
                 "wins": 0,
                 "losses": 1,
-                "opponent": "paprika"
+                "opponent": "DN | Silas"
+            }
+        ]
+    },
+    {
+        "name": "Nunu",
+        "braacket_rank": 126,
+        "colley_rank": 130,
+        "colley_score": 0.19475800325119758,
+        "colley_strength_of_schedule": 0.38951600650239526,
+        "records": [
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "TsunamiGod77"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Tricolour"
+            }
+        ]
+    },
+    {
+        "name": "smokeyboi",
+        "braacket_rank": 127,
+        "colley_rank": 144,
+        "colley_score": 0.11976568887074798,
+        "colley_strength_of_schedule": 0.42964853330612196,
+        "records": [
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Hod"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Blankets"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Jcorn"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Brain Lag"
+            }
+        ]
+    },
+    {
+        "name": "gems | HockeyHands",
+        "braacket_rank": 128,
+        "colley_rank": 120,
+        "colley_score": 0.2473848066814931,
+        "colley_strength_of_schedule": 0.49476961336298625,
+        "records": [
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "zapwad"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "fkribs"
+            }
+        ]
+    },
+    {
+        "name": "BIG FUNKY",
+        "braacket_rank": 129,
+        "colley_rank": 110,
+        "colley_score": 0.2784931257888741,
+        "colley_strength_of_schedule": 0.5569862515777478,
+        "records": [
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Stinky"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Mateo"
+            }
+        ]
+    },
+    {
+        "name": "Bearz",
+        "braacket_rank": 130,
+        "colley_rank": 143,
+        "colley_score": 0.1387713062785721,
+        "colley_strength_of_schedule": 0.5183617417047628,
+        "records": [
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Jab"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Crowken"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Ace?"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Jakan0id"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Premo"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Chair"
+            }
+        ]
+    },
+    {
+        "name": "RowBoat",
+        "braacket_rank": 131,
+        "colley_rank": 128,
+        "colley_score": 0.212033957389579,
+        "colley_strength_of_schedule": 0.42406791477915806,
+        "records": [
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Kicks"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Jcorn"
+            }
+        ]
+    },
+    {
+        "name": "Aarc",
+        "braacket_rank": 132,
+        "colley_rank": 119,
+        "colley_score": 0.2591697601130198,
+        "colley_strength_of_schedule": 0.5183395202260398,
+        "records": [
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Kite"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "nj"
+            }
+        ]
+    },
+    {
+        "name": "Paul",
+        "braacket_rank": 133,
+        "colley_rank": 123,
+        "colley_score": 0.23601765179545295,
+        "colley_strength_of_schedule": 0.4720353035909059,
+        "records": [
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Kicks"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Rinzler"
+            }
+        ]
+    },
+    {
+        "name": "The machinist",
+        "braacket_rank": 134,
+        "colley_rank": 114,
+        "colley_score": 0.2613582974985541,
+        "colley_strength_of_schedule": 0.5227165949971081,
+        "records": [
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "AceBox"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Rinzler"
             }
         ]
     },
     {
         "name": "Dang",
-        "braacket_rank": 142,
-        "colley_rank": 100,
-        "colley_score": 0.33592646304708407,
-        "colley_strength_of_schedule": 0.6718529260941681,
+        "braacket_rank": 135,
+        "colley_rank": 101,
+        "colley_score": 0.335728586780055,
+        "colley_strength_of_schedule": 0.6714571735601098,
         "records": [
             {
                 "wins": 0,
@@ -7678,21 +7650,178 @@
         ]
     },
     {
-        "name": "(not Mayz) | Shiverr",
-        "braacket_rank": 143,
-        "colley_rank": 131,
-        "colley_score": 0.19020086592509597,
-        "colley_strength_of_schedule": 0.38040173185019166,
+        "name": "Coconut in Pants",
+        "braacket_rank": 136,
+        "colley_rank": 127,
+        "colley_score": 0.21203395738957906,
+        "colley_strength_of_schedule": 0.42406791477915806,
         "records": [
             {
                 "wins": 0,
                 "losses": 1,
-                "opponent": "Mateo"
+                "opponent": "Kicks"
             },
             {
                 "wins": 0,
                 "losses": 1,
-                "opponent": "DN | Silas"
+                "opponent": "Jcorn"
+            }
+        ]
+    },
+    {
+        "name": "NIKE",
+        "braacket_rank": 137,
+        "colley_rank": 117,
+        "colley_score": 0.2598685719569704,
+        "colley_strength_of_schedule": 0.5197371439139407,
+        "records": [
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "zapwad"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "moeznr"
+            }
+        ]
+    },
+    {
+        "name": "Turnip Farmer",
+        "braacket_rank": 138,
+        "colley_rank": 137,
+        "colley_score": 0.17319996843097116,
+        "colley_strength_of_schedule": 0.34639993686194226,
+        "records": [
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Sir+"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "4LEX"
+            }
+        ]
+    },
+    {
+        "name": "JV | nom2king",
+        "braacket_rank": 139,
+        "colley_rank": 118,
+        "colley_score": 0.25916976011301984,
+        "colley_strength_of_schedule": 0.5183395202260398,
+        "records": [
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Kite"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "nj"
+            }
+        ]
+    },
+    {
+        "name": "crank ocean",
+        "braacket_rank": 140,
+        "colley_rank": 141,
+        "colley_score": 0.15315749623393005,
+        "colley_strength_of_schedule": 0.4797362443508951,
+        "records": [
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Phazon"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "AceBox"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Spice"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "CU"
+            }
+        ]
+    },
+    {
+        "name": "909 | TRAP CARD",
+        "braacket_rank": 141,
+        "colley_rank": 108,
+        "colley_score": 0.29416445009914677,
+        "colley_strength_of_schedule": 0.5883289001982936,
+        "records": [
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Phazon"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "paprika"
+            }
+        ]
+    },
+    {
+        "name": "Fredrick",
+        "braacket_rank": 142,
+        "colley_rank": 103,
+        "colley_score": 0.33196801097530926,
+        "colley_strength_of_schedule": 0.49590403292592794,
+        "records": [
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Kite"
+            }
+        ]
+    },
+    {
+        "name": "Slothy",
+        "braacket_rank": 143,
+        "colley_rank": 111,
+        "colley_score": 0.2682518263136852,
+        "colley_strength_of_schedule": 0.5365036526273702,
+        "records": [
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Spin"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "moeznr"
+            }
+        ]
+    },
+    {
+        "name": "Sammyy :)",
+        "braacket_rank": 144,
+        "colley_rank": 133,
+        "colley_score": 0.182040086807756,
+        "colley_strength_of_schedule": 0.364080173615512,
+        "records": [
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Brain Lag"
+            },
+            {
+                "wins": 0,
+                "losses": 1,
+                "opponent": "Nara Sumas"
             }
         ]
     }
