@@ -60,7 +60,7 @@ const PLAYER_TO_CHARACTERS = new Map([
   ['Russell', ['FOX']],
   ['Shleeum', ['FOX', 'FALCO', 'MARTH']],
   ['Phazon', ['SAMUS']],
-  ['SpecialK', ['Falco']],
+  ['SpecialK', ['FALCO']],
   ['OC Zack', ['MARTH']],
   ['Noah', ['FOX']],
   ['Foxtrot', ['SHEIK']],
