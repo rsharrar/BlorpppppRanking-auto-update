@@ -6,6 +6,8 @@ import * as settings from '../../../../settings'
 
 const PLAYER_TO_CHARACTERS = new Map([
   ['Owl', ['MARTH']],
+  ['ICEBOX | Kacey', ['FALCO', 'SHEIK']],
+  ['DayDream', ['JIGGLYPUFF']],
   ['Fizzwiggle', ['SHEIK']],
   ['Polear', ['MARTH']],
   ['Miyagi', ['FOX']],
@@ -18,8 +20,11 @@ const PLAYER_TO_CHARACTERS = new Map([
   ['LIAM#697 | Shleeum', ['FOX', 'FALCO', 'MARTH']],
   ['DSJ', ['JIGGLYPUFF']],
   ['Big Piney', ['JIGGLYPUFF']],
+  ['LT | RanD', ['LUIGI']],
   ['Conman', ['FOX']],
   ['Neuron', ['FOX']],
+  ['Rafael', ['PEACH']],
+  ['Tips', ['FALCON', 'NESS']],
   ['Omegam', ['SHEIK']],
   ['w0mp', ['FOX']],
   ['RIZ', ['FOX']],
@@ -53,6 +58,7 @@ const PLAYER_TO_CHARACTERS = new Map([
   ['shwang', ['MARTH']],
   ['Ace?', ['LUIGI']],
   ['Neptune', ['ICE_CLIMBERS']],
+  ['DayNeptune930', ['ICE_CLIMBERS']],
   ['AceBox', ['JIGGLYPUFF']],
   ['Kasumi', ['DR_MARIO']],
   ['MP3', ['NESS']],
@@ -65,7 +71,7 @@ const PLAYER_TO_CHARACTERS = new Map([
   ['Noah', ['FOX']],
   ['Foxtrot', ['SHEIK']],
   ['Jasper', ['LUIGI']],
-  ['honey!', ['LUIGI']],
+  ['honey!', ['FOX']],
 ])
 
 export default function HomePage() {
