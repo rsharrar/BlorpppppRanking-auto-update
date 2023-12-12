@@ -24,7 +24,7 @@ const PLAYER_TO_CHARACTERS = new Map([
   ['Conman', ['FOX']],
   ['Neuron', ['FOX']],
   ['Rafael', ['PEACH']],
-  ['Tips', ['FALCON', 'NESS']],
+  ['Tips', ['CAPTAIN_FALCON', 'NESS']],
   ['Omegam', ['SHEIK']],
   ['w0mp', ['FOX']],
   ['RIZ', ['FOX']],
