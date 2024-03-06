@@ -4,6 +4,7 @@ from braacket import load_players, Player
 import dataclasses
 import json
 import numpy as np
+import os
 
 def colley(players, i,j):
   player = players[i]
@@ -63,11 +64,21 @@ class EnhancedJSONEncoder(json.JSONEncoder):
       return player_to_dict(o)
     return super().default(o)
 
-def main():
-  players, name_to_player = load_players("comelee", "1B2D2093-284F-4B5F-A1A7-F33814FCCBDE")
+def load_season(ranking_id):
+  players, name_to_player = load_players("comelee", ranking_id)
   solve_colley(players, name_to_player)
-  with open('data/players.json', 'w', encoding='utf-8') as f:
+  dirpath = f"data/{ranking_id}"
+  os.makedirs(dirpath, exist_ok=True)
+  with open(f"{dirpath}/players.json", 'w', encoding='utf-8') as f:
     json.dump(players, f, ensure_ascii=False, indent=4, cls=EnhancedJSONEncoder)
+
+def main():
+  SEASONS = [
+    "B3B6A4C9-4C45-49B5-BC3E-97BFC07566E4"
+    "1B2D2093-284F-4B5F-A1A7-F33814FCCBDE",
+  ]
+  for season in SEASONS[:1]:
+    load_season(season)
 
 if __name__ == "__main__":
   main()

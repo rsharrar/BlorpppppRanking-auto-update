@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Table } from '../../Table';
 import { Player } from '../../../lib/player'
-import playersJson from '../../../../cron/data/players.json';
+import H1_2024_players from '../../../../cron/data/B3B6A4C9-4C45-49B5-BC3E-97BFC07566E4/players.json';
+import H2_2023_players from '../../../../cron/data/1B2D2093-284F-4B5F-A1A7-F33814FCCBDE/players.json';
 import * as settings from '../../../../settings'
 
 const PLAYER_TO_CHARACTERS = new Map([
@@ -74,8 +75,15 @@ const PLAYER_TO_CHARACTERS = new Map([
   ['honey!', ['FOX']],
 ])
 
+const SEASONS = {
+  "H1 2024": H1_2024_players,
+  "H2 2023": H2_2023_players
+}
+
 export default function HomePage() {
-  const players = playersJson as Player[]
+  const [season, setSeason] = useState(Object.keys(SEASONS)[0])
+  console.log(season)
+  const players = SEASONS[season]
   const nameToPlayer = new Map(players.map((p) => [p.name, p]))
   players.forEach((p) => {
     p.characters = PLAYER_TO_CHARACTERS.get(p.name) ?? []
@@ -92,6 +100,18 @@ export default function HomePage() {
     p.colley_strength_of_schedule_rank = i + 1
   })
 
+
+  const seasonSelect = () => {
+    return <div className="flex flex-row items-center justify-center">
+      <h2 className="text-xl my-4 text-center text-white"> Season </h2>
+      <select className="m-2 block py-3 px-4 text-base text-white bg-gray-900 rounded-lg border border-gray-500 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+        onChange={(event) => {setSeason(event.target.value)}}
+        value={season}>
+      {Object.keys(SEASONS).map((s) => <option key={s} value={s}>{s}</option>)}
+    </select>
+  </div>
+  }
+
   const coffee = () => {
     return <div className="p-2 text-gray-300 flex flex-col">
         <div>
@@ -107,6 +127,7 @@ export default function HomePage() {
       <h1 className="text-3xl m-4 text-center text-white">
         {settings.title}
       </h1>
+      {seasonSelect()}
       <a href="https://www.colleyrankings.com/matrate.pdf" target="_blank" rel="noreferrer"
          className="text-gray-400 hover:text-indigo-300 mr-2 hover:underline">
         Ranking Methodology       

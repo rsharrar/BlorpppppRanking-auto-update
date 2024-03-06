@@ -30,6 +30,12 @@ def record_from_cell(cell, opponent):
   results = cell.split(" - ")
   return Record(opponent=opponent, wins=int(results[0]), losses=int(results[1]))
 
+corrected = {}
+#corrected = {
+#  "Zealot,Polear": (2, 0),
+#  "Polear,Zealot": (0, 2),
+#}
+
 # https://braacket.com/league/:LEAGUE_ID/head2head/:RANKING_ID
 def load_players(league_id, ranking_id):
   def get_h2h_subset(r, c):
@@ -73,6 +79,14 @@ def load_players(league_id, ranking_id):
       if y == x:
         continue
       record = record_from_cell(h2h[y][x], name_to_player[player_names[x]])
+      player = player_names[y]
+      opp = player_names[x]
+      key = f"{player},{opp}"
+      if key in corrected:
+        correction = corrected[key]
+        record.wins  = correction[0]
+        record.losses = correction[1]
+      
       if record.wins + record.losses > 0:
         records.append(record)
     name_to_player[player_names[y]].records = records
