@@ -69,13 +69,14 @@ def load_season(ranking_id):
   solve_colley(players, name_to_player)
   dirpath = f"data/{ranking_id}"
   os.makedirs(dirpath, exist_ok=True)
+  print(f"writing data to {dirpath}/players")
   with open(f"{dirpath}/players.json", 'w', encoding='utf-8') as f:
     json.dump(players, f, ensure_ascii=False, indent=4, cls=EnhancedJSONEncoder)
 
 def main():
   SEASONS = [
-    "B3B6A4C9-4C45-49B5-BC3E-97BFC07566E4"
-    "1B2D2093-284F-4B5F-A1A7-F33814FCCBDE",
+    "B3B6A4C9-4C45-49B5-BC3E-97BFC07566E4", # latest season
+    "1B2D2093-284F-4B5F-A1A7-F33814FCCBDE"
   ]
   for season in SEASONS[:1]:
     load_season(season)
