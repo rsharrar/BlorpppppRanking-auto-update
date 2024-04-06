@@ -73,6 +73,8 @@ const PLAYER_TO_CHARACTERS = new Map([
   ['Foxtrot', ['SHEIK']],
   ['Jasper', ['LUIGI']],
   ['honey!', ['FOX']],
+  ['RanD', ['LUIGI']],
+  ['Secrets', ['FOX']],
 ])
 
 const SEASONS = {
