@@ -75,10 +75,11 @@ def load_season(ranking_id):
 
 def main():
   SEASONS = [
+    "3A6E2789-CD62-4462-9F28-196FC8B05EA2",
     "B3B6A4C9-4C45-49B5-BC3E-97BFC07566E4", # latest season
     "1B2D2093-284F-4B5F-A1A7-F33814FCCBDE"
   ]
-  for season in SEASONS[:1]:
+  for season in SEASONS:
     load_season(season)
 
 if __name__ == "__main__":
