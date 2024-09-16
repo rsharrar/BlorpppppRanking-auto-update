@@ -8,7 +8,7 @@ import * as settings from '../../../../settings'
 
 const PLAYER_TO_CHARACTERS = new Map([
   ['Owl', ['MARTH']],
-  ['ICEBOX | Kacey', ['FALCO', 'SHEIK']],
+  ['Kacey', ['FALCO']],
   ['DayDream', ['JIGGLYPUFF']],
   ['Fizzwiggle', ['SHEIK']],
   ['Polear', ['MARTH']],
@@ -32,6 +32,8 @@ const PLAYER_TO_CHARACTERS = new Map([
   ['RIZ', ['FOX']],
   ['Grillindude', ['SAMUS']],
   ['Rrob', ['FOX']],
+  ['Kirbstomp', ['FOX', 'KIRBY']],
+  ['fenceturtle', ['JIGGLYPUFF']],
   ['blorppppp', ['SHEIK']],
   ['Dr | Pill Nye', ['DR_MARIO', 'DONKEY_KONG']],
   ['Kiefer', ['SHEIK']],
@@ -76,6 +78,12 @@ const PLAYER_TO_CHARACTERS = new Map([
   ['honey!', ['FOX']],
   ['RanD', ['LUIGI']],
   ['Secrets', ['FOX']],
+  ['Coffee', ['DONKEY_KONG']],
+  ['Crowken', ['FALCO']],
+  ['Datrooph', ['FALCO']],
+  ['Paprika', ['PEACH']],
+  ['SilkyLaroux', ['FOX', 'CAPTAIN_FALCON']],
+  ['nj', ['SHIEK']],
 ])
 
 const SEASONS = {
