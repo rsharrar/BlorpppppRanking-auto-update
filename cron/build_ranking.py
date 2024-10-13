@@ -74,12 +74,13 @@ def load_season(ranking_id):
     json.dump(players, f, ensure_ascii=False, indent=4, cls=EnhancedJSONEncoder)
 
 def main():
+  # latest season is first
   SEASONS = [
     "3A6E2789-CD62-4462-9F28-196FC8B05EA2",
-    "B3B6A4C9-4C45-49B5-BC3E-97BFC07566E4", # latest season
+    "B3B6A4C9-4C45-49B5-BC3E-97BFC07566E4",
     "1B2D2093-284F-4B5F-A1A7-F33814FCCBDE"
   ]
-  for season in SEASONS:
+  for season in SEASONS[:1]:
     load_season(season)
 
 if __name__ == "__main__":
