@@ -65,9 +65,10 @@ class EnhancedJSONEncoder(json.JSONEncoder):
     return super().default(o)
 
 def load_season(ranking_id):
+  file_dir = os.path.dirname(os.path.realpath(__file__))
   players, name_to_player = load_players("comelee", ranking_id)
   solve_colley(players, name_to_player)
-  dirpath = f"data/{ranking_id}"
+  dirpath = os.path.join(file_dir, "data", ranking_id)
   os.makedirs(dirpath, exist_ok=True)
   print(f"writing data to {dirpath}/players")
   with open(f"{dirpath}/players.json", 'w', encoding='utf-8') as f:
@@ -75,13 +76,14 @@ def load_season(ranking_id):
 
 def main():
   # latest season is first
-  SEASONS = [
-    "3A6E2789-CD62-4462-9F28-196FC8B05EA2",
-    "B3B6A4C9-4C45-49B5-BC3E-97BFC07566E4",
-    "1B2D2093-284F-4B5F-A1A7-F33814FCCBDE"
+  CUR_SEASON = "3A6E2789-CD62-4462-9F28-196FC8B05EA2"
+  PAST_SEASONS = [
+          "B3B6A4C9-4C45-49B5-BC3E-97BFC07566E4",
+          "1B2D2093-284F-4B5F-A1A7-F33814FCCBDE",
   ]
-  for season in SEASONS[:1]:
-    load_season(season)
+  ALL= [CUR_SEASON] + PAST_SEASONS
+  for season in ALL:
+      load_season(season)
 
 if __name__ == "__main__":
   main()
