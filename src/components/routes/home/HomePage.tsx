@@ -83,7 +83,7 @@ const PLAYER_TO_CHARACTERS = new Map([
   ['Datrooph', ['FALCO']],
   ['Paprika', ['PEACH']],
   ['SilkyLaroux', ['FOX', 'CAPTAIN_FALCON']],
-  ['nj', ['SHIEK']],
+  ['nj', ['SHEIK']],
 ])
 
 const SEASONS = {
@@ -91,7 +91,6 @@ const SEASONS = {
   "H1 2024": H1_2024_players,
   "H2 2023": H2_2023_players
 }
-debugger;
 
 export default function HomePage() {
   const [season, setSeason] = useState(Object.keys(SEASONS)[0])
