@@ -89,7 +89,7 @@ export function Row({ player }: Props) {
                   #{player.colley_rank}
 	          	   </div>
                 <div className="flex flex-row md:w-64 w-32 text-gray-100 whitespace-nowrap text-center overflow-hidden md:max-w-full max-w-[7rem] text-elipses md:text-xl text-xs max-w-xs text-gray-300 items-center justify-center">
-                  {randify(player.name)}
+                  {player.name}
                   <div className="mx-1 flex flex-row">
                   {(player.characters ?? []).map((c) => {
                     return <Character key={c} name={c} />
