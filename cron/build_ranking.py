@@ -1,10 +1,10 @@
 from scipy.linalg import solve
-from dataclasses import dataclass
 from braacket import load_players, Player
-import dataclasses
 import json
 import numpy as np
 import os
+from datetime import datetime
+from pathlib import Path
 
 def colley(players, i,j):
   player = players[i]
@@ -64,14 +64,17 @@ class EnhancedJSONEncoder(json.JSONEncoder):
       return player_to_dict(o)
     return super().default(o)
 
-def load_season(ranking_id):
-  file_dir = os.path.dirname(os.path.realpath(__file__))
+def load_season(ranking_id: str, out_dir: str):
   players, name_to_player = load_players("comelee", ranking_id)
   solve_colley(players, name_to_player)
-  dirpath = os.path.join(file_dir, "data", ranking_id)
-  os.makedirs(dirpath, exist_ok=True)
-  print(f"writing data to {dirpath}/players")
-  with open(f"{dirpath}/players.json", 'w', encoding='utf-8') as f:
+  
+  dirpath = out_dir / ranking_id
+  dirpath.mkdir(exist_ok=True, parents=True)
+  print(f"Made path {dirpath}")
+  out_file = dirpath / "players.json"
+  
+  print(f"Writing data to {out_file}")
+  with out_file.open(mode='w', encoding='utf-8') as f:
     json.dump(players, f, ensure_ascii=False, indent=4, cls=EnhancedJSONEncoder)
 
 def main():
@@ -82,8 +85,16 @@ def main():
           "1B2D2093-284F-4B5F-A1A7-F33814FCCBDE",
   ]
   ALL= [CUR_SEASON] + PAST_SEASONS
+
+  file_dir = Path(__file__).parent
+  out_dir = file_dir / "data"
   for season in ALL:
-      load_season(season)
+      load_season(season, out_dir)
+
+  ts = {"timestamp": str(datetime.now().replace(microsecond=0))}
+  timestamp_file = out_dir / "timestamp.json"
+  with timestamp_file.open(mode="w", encoding="utf-8") as ts_f:
+    json.dump(ts, ts_f, ensure_ascii=False, indent=4, cls=EnhancedJSONEncoder)
 
 if __name__ == "__main__":
   main()

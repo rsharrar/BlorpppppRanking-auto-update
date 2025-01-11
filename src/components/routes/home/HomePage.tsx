@@ -4,6 +4,7 @@ import { Player } from '../../../lib/player'
 import H2_2024_players from '../../../../cron/data/3A6E2789-CD62-4462-9F28-196FC8B05EA2/players.json';
 import H1_2024_players from '../../../../cron/data/B3B6A4C9-4C45-49B5-BC3E-97BFC07566E4/players.json';
 import H2_2023_players from '../../../../cron/data/1B2D2093-284F-4B5F-A1A7-F33814FCCBDE/players.json';
+import TimeStampFile from '../../../../cron/data/timestamp.json'
 import * as settings from '../../../../settings'
 
 const PLAYER_TO_CHARACTERS = new Map([
@@ -161,6 +162,16 @@ export default function HomePage() {
         </div>
       </div>
   }
+
+  const last_update = () => {
+    return <div className="p-2 text-gray-300 flex flex-col">
+        <div>
+          <a>
+            Last updated: {TimeStampFile.timestamp}
+          </a>
+        </div>
+      </div>
+  }
   return (
     <div className="flex flex-col items-center h-screen p-8">
       <h1 className="text-3xl m-4 text-center text-white">
@@ -173,6 +184,7 @@ export default function HomePage() {
       </a>
       
       {coffee()}
+      {last_update()}
       <Table players={players} />
       {coffee()}
     </div>
