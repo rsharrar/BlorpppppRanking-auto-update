@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Table } from '../../Table';
 import { Player } from '../../../lib/player'
+import H1_2025_players from '../../../../cron/data/8982631B-07FF-4955-915C-CF8EC7AAAB72/players.json'
 import H2_2024_players from '../../../../cron/data/3A6E2789-CD62-4462-9F28-196FC8B05EA2/players.json';
 import H1_2024_players from '../../../../cron/data/B3B6A4C9-4C45-49B5-BC3E-97BFC07566E4/players.json';
 import H2_2023_players from '../../../../cron/data/1B2D2093-284F-4B5F-A1A7-F33814FCCBDE/players.json';
@@ -92,7 +93,8 @@ const PLAYER_TO_CHARACTERS = new Map([
   ['paprika', ['PEACH']],
   ['Gaywiggle', ['FOX']],
   ['Mateo', ['CAPTAIN_FALCON']],
-  ['Plue', ['KIRBY']],
+  ['LOS | Plue', ['KIRBY']],
+  ['Haydes', ['FALCO']],
   ['Kite', ['JIGGLYPUFF']],
   ['Drip', ['SHEIK']],
   ['Chair', ['FOX', 'FALCO']],
@@ -115,6 +117,7 @@ const PLAYER_TO_CHARACTERS = new Map([
 ])
 
 const SEASONS = {
+  "H1 2025": H1_2025_players,
   "H2 2024": H2_2024_players,
   "H1 2024": H1_2024_players,
   "H2 2023": H2_2023_players

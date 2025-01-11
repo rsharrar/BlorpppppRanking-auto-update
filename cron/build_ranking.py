@@ -79,8 +79,9 @@ def load_season(ranking_id: str, out_dir: str):
 
 def main():
   # latest season is first
-  CUR_SEASON = "3A6E2789-CD62-4462-9F28-196FC8B05EA2"
+  CUR_SEASON = "8982631B-07FF-4955-915C-CF8EC7AAAB72"
   PAST_SEASONS = [
+          "3A6E2789-CD62-4462-9F28-196FC8B05EA2",
           "B3B6A4C9-4C45-49B5-BC3E-97BFC07566E4",
           "1B2D2093-284F-4B5F-A1A7-F33814FCCBDE",
   ]
@@ -91,7 +92,8 @@ def main():
   for season in ALL:
       load_season(season, out_dir)
 
-  ts = {"timestamp": str(datetime.now().replace(microsecond=0))}
+  # Save a timestamp for the front-end to read in human readable format
+  ts = {"timestamp": str(datetime.now().replace(microsecond=0).strftime("%Y-%m-%d %I:%M %p"))}
   timestamp_file = out_dir / "timestamp.json"
   with timestamp_file.open(mode="w", encoding="utf-8") as ts_f:
     json.dump(ts, ts_f, ensure_ascii=False, indent=4, cls=EnhancedJSONEncoder)
