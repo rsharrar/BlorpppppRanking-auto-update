@@ -167,14 +167,21 @@ export default function HomePage() {
   }
 
   const last_update = () => {
+    const date = new Date(TimeStampFile.timestamp * 1000)
+    const humanDate = date.toLocaleString('en-US', {
+      timeZone: 'America/Denver',
+      hour12: true
+    });
+
     return <div className="p-2 text-gray-300 flex flex-col">
         <div>
           <a>
-            Last updated: {TimeStampFile.timestamp} MT Time
+            Last updated: {humanDate} MT Time
           </a>
         </div>
       </div>
   }
+
   return (
     <div className="flex flex-col items-center h-screen p-8">
       <h1 className="text-3xl m-4 text-center text-white">

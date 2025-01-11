@@ -2,4 +2,3 @@ scipy
 requests
 dataclasses
 bs4
-pytz

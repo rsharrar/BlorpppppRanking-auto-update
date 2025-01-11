@@ -4,7 +4,6 @@ import json
 import numpy as np
 from datetime import datetime
 from pathlib import Path
-import pytz
 
 def colley(players, i,j):
   player = players[i]
@@ -92,9 +91,8 @@ def main():
   for season in ALL:
       load_season(season, out_dir)
 
-  # Save a timestamp for the front-end to read in human readable format
-  denver_tz = pytz.timezone("America/Denver")
-  ts = {"timestamp": str(datetime.now(denver_tz).replace(microsecond=0).strftime("%Y-%m-%d %I:%M %p"))}
+  # Save a timestamp in unix time for front end to read
+  ts = {"timestamp": datetime.now().timestamp()}
   timestamp_file = out_dir / "timestamp.json"
   with timestamp_file.open(mode="w", encoding="utf-8") as ts_f:
     json.dump(ts, ts_f, ensure_ascii=False, indent=4, cls=EnhancedJSONEncoder)
