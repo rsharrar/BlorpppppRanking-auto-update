@@ -170,7 +170,7 @@ export default function HomePage() {
     return <div className="p-2 text-gray-300 flex flex-col">
         <div>
           <a>
-            Last updated: {TimeStampFile.timestamp}
+            Last updated: {TimeStampFile.timestamp} MT Time
           </a>
         </div>
       </div>
