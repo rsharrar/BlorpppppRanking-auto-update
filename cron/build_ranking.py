@@ -64,7 +64,7 @@ class EnhancedJSONEncoder(json.JSONEncoder):
       return player_to_dict(o)
     return super().default(o)
 
-def load_season(ranking_id: str, out_dir: str):
+def load_season(ranking_id: str, out_dir: Path):
   players, name_to_player = load_players("comelee", ranking_id)
   solve_colley(players, name_to_player)
   
