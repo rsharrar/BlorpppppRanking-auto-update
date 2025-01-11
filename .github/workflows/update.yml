@@ -1,0 +1,49 @@
+name: Update Blorppppp Colley Rankings
+
+on:
+  push:
+    branches:
+        main
+  schedule:
+    - cron: "0 * * * *"
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-node@v4
+      with:
+        node-version: '22.12.0'
+    - name: Install project dependencies
+      run: yarn install
+      shell: bash
+    - name: Set up Python 3.12
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.12'
+    - name: Install python dependencies
+      run: |
+        python3 -m pip install --upgrade pip
+        pip install -r ./cron/requirements.txt
+    - uses: actions/download-artifact@v4
+      continue-on-error: true
+      with:
+        name: player-data
+        path: cron/data/**/*.json
+        run-id: ${{ github.event.workflow_run.id }}
+        github-token: ${{ github.token }}
+    - name: Load latest player data and deploy to github pages
+      run: |
+        git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+        ./cron/run.sh
+      shell: bash
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - uses: actions/upload-artifact@v4
+      with:
+        name: player-data
+        path: cron/data/**/*.json
+        overwrite: true
+        run-id: ${{ github.event.workflow_run.id }}
+        github-token: ${{ github.token }}
