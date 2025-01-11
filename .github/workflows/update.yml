@@ -18,7 +18,6 @@ jobs:
     - name: Install project dependencies
       run: yarn install
       shell: bash
-    # Step 2: Set up Python
     - name: Set up Python 3.12
       uses: actions/setup-python@v3
       with:
@@ -26,7 +25,7 @@ jobs:
     - name: Install dependencies
       run: |
         python3 -m pip install --upgrade pip
-        pip install scipy
+        pip install -r ./cron/requirements.txt
     - uses: actions/download-artifact@v4
       continue-on-error: true
       with:
