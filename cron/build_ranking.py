@@ -2,7 +2,6 @@ from scipy.linalg import solve
 from braacket import load_players, Player
 import json
 import numpy as np
-import os
 from datetime import datetime
 from pathlib import Path
 
